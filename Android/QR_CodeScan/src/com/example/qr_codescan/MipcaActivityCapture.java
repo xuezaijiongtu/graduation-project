@@ -21,7 +21,6 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.example.jycheck.R;
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.Result;
 import com.mining.app.zxing.camera.CameraManager;
@@ -108,7 +107,7 @@ public class MipcaActivityCapture extends Activity implements Callback {
 	}
 	
 	/**
-	 * ´¦ÀíÉ¨Ãè½á¹û
+	 * ï¿½ï¿½ï¿½ï¿½É¨ï¿½ï¿½ï¿½ï¿½
 	 * @param result
 	 * @param barcode
 	 */
