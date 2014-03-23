@@ -1,0 +1,7 @@
+[ 2013-08-07T17:21:58+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/Login/CheckLogin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001205s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.049518s ]
+SQL: SELECT * FROM `admin` WHERE ( `admin_account` = 'xtuone' ) LIMIT 1   [ RunTime:0.050676s ]
+

@@ -1,0 +1,22 @@
+[ 2013-08-15T10:05:41+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/Login/CheckLogin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.052989s ]
+SQL: SELECT * FROM `admin` WHERE ( `admin_account` = 'xtuone' ) LIMIT 1   [ RunTime:0.051202s ]
+
+[ 2013-08-15T10:05:45+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/SchoolGrade
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+
+[ 2013-08-15T11:33:55+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/friday/School/SchoolInfoShow
+ERR: 鏃犳硶鍔犺浇妯″潡:friday
+
+[ 2013-08-15T11:54:27+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/
+ERR: 闈炴硶鎿嶄綔:index
+
+[ 2013-08-15T21:17:07+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/SchoolInfoShow
+ERR: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+

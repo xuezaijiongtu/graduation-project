@@ -1,0 +1,194 @@
+[ 2013-07-29T09:27:27+08:00 ] 127.0.0.1 /fridaysystem/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024150s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.052935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053057s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\work_space\www\fridaysystem\include\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\work_space\www\fridaysystem\include\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000611s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000475s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000366s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000550s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002211s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001049s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001137s ]
+
+[ 2013-07-29T17:07:07+08:00 ] 127.0.0.1 /fridaysystem/index.php/Login/checkLogin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002381s ]
+NOTIC: [2048] Declaration of LoginAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\work_space\www\fridaysystem\friday\Lib\Action\LoginAction.class.php 第 44 行.
+NOTIC: [2] mysql_connect(): Access denied for user 'xuezaijiongtu'@'113.111.91.220' (using password: YES) D:\work_space\www\fridaysystem\include\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+ERR: Access denied for user 'xuezaijiongtu'@'113.111.91.220' (using password: YES)
+
+[ 2013-07-29T17:07:16+08:00 ] 127.0.0.1 /fridaysystem/index.php/Login/checkLogin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002770s ]
+NOTIC: [2048] Declaration of LoginAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\work_space\www\fridaysystem\friday\Lib\Action\LoginAction.class.php 第 44 行.
+
+[ 2013-07-29T17:07:22+08:00 ] 127.0.0.1 /fridaysystem/index.php/Login/checkLogin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002244s ]
+NOTIC: [2048] Declaration of LoginAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\work_space\www\fridaysystem\friday\Lib\Action\LoginAction.class.php 第 44 行.
+NOTIC: [2] mysql_connect(): Access denied for user 'xuezaijiongtu'@'113.111.91.220' (using password: YES) D:\work_space\www\fridaysystem\include\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+ERR: Access denied for user 'xuezaijiongtu'@'113.111.91.220' (using password: YES)
+
+[ 2013-07-29T17:07:47+08:00 ] 127.0.0.1 /fridaysystem/index.php/Login/checkLogin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002175s ]
+NOTIC: [2048] Declaration of LoginAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\work_space\www\fridaysystem\friday\Lib\Action\LoginAction.class.php 第 44 行.
+NOTIC: [2] mysql_connect(): Access denied for user 'xuezaijiongtu'@'113.111.91.220' (using password: YES) D:\work_space\www\fridaysystem\include\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+ERR: Access denied for user 'xuezaijiongtu'@'113.111.91.220' (using password: YES)
+
+[ 2013-07-29T17:07:52+08:00 ] 127.0.0.1 /fridaysystem/index.php/Login/checkLogin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004391s ]
+NOTIC: [2048] Declaration of LoginAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\work_space\www\fridaysystem\friday\Lib\Action\LoginAction.class.php 第 44 行.
+NOTIC: [2] mysql_connect(): Access denied for user 'xuezaijiongtu'@'113.111.91.220' (using password: YES) D:\work_space\www\fridaysystem\include\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+ERR: Access denied for user 'xuezaijiongtu'@'113.111.91.220' (using password: YES)
+
+[ 2013-07-29T17:08:34+08:00 ] 127.0.0.1 /fridaysystem/index.php/Login/checkLogin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001746s ]
+NOTIC: [2048] Declaration of LoginAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\work_space\www\fridaysystem\friday\Lib\Action\LoginAction.class.php 第 44 行.
+NOTIC: [2] mysql_connect(): Access denied for user 'xuezaijiongtu'@'113.111.91.220' (using password: YES) D:\work_space\www\fridaysystem\include\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+ERR: Access denied for user 'xuezaijiongtu'@'113.111.91.220' (using password: YES)
+
+[ 2013-07-29T17:08:34+08:00 ] 127.0.0.1 /fridaysystem/index.php/Login/checkLogin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002613s ]
+NOTIC: [2048] Declaration of LoginAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\work_space\www\fridaysystem\friday\Lib\Action\LoginAction.class.php 第 44 行.
+NOTIC: [2] mysql_connect(): Access denied for user 'xuezaijiongtu'@'113.111.91.220' (using password: YES) D:\work_space\www\fridaysystem\include\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+ERR: Access denied for user 'xuezaijiongtu'@'113.111.91.220' (using password: YES)
+
+[ 2013-07-29T17:08:47+08:00 ] 127.0.0.1 /fridaysystem/index.php/Login/checkLogin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001213s ]
+NOTIC: [2048] Declaration of LoginAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\work_space\www\fridaysystem\friday\Lib\Action\LoginAction.class.php 第 44 行.
+NOTIC: [2] mysql_connect(): Access denied for user 'xuezaijiongtu'@'113.111.91.220' (using password: YES) D:\work_space\www\fridaysystem\include\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+ERR: Access denied for user 'xuezaijiongtu'@'113.111.91.220' (using password: YES)
+
+[ 2013-07-29T17:10:23+08:00 ] 127.0.0.1 /fridaysystem/index.php/Login/checkLogin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.008973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009121s ]
+NOTIC: [2048] Declaration of LoginAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\work_space\www\fridaysystem\friday\Lib\Action\LoginAction.class.php 第 44 行.
+NOTIC: [2] mysql_connect(): Access denied for user 'xuezaijiongtu'@'113.111.91.220' (using password: YES) D:\work_space\www\fridaysystem\include\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+ERR: Access denied for user 'xuezaijiongtu'@'113.111.91.220' (using password: YES)
+
+[ 2013-07-29T17:10:52+08:00 ] 127.0.0.1 /fridaysystem/index.php/Login/checkLogin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002095s ]
+NOTIC: [2048] Declaration of LoginAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\work_space\www\fridaysystem\friday\Lib\Action\LoginAction.class.php 第 44 行.
+NOTIC: [2] mysql_connect(): Access denied for user 'xuezaijiongtu'@'113.111.91.220' (using password: YES) D:\work_space\www\fridaysystem\include\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+ERR: Access denied for user 'xuezaijiongtu'@'113.111.91.220' (using password: YES)
+
+[ 2013-07-29T17:12:27+08:00 ] 127.0.0.1 /fridaysystem/index.php/Login/checkLogin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002970s ]
+NOTIC: [2048] Declaration of LoginAction::show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') D:\work_space\www\fridaysystem\friday\Lib\Action\LoginAction.class.php 第 44 行.
+NOTIC: [2] mysql_connect(): Access denied for user 'xuezaijiongtu'@'113.111.91.220' (using password: YES) D:\work_space\www\fridaysystem\include\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+ERR: Access denied for user 'xuezaijiongtu'@'113.111.91.220' (using password: YES)
+
+[ 2013-07-29T17:17:11+08:00 ] 127.0.0.1 /fridaysystem/index.php/Login/Checklogin?username=xtuone&password=123456
+ERR: Access denied for user 'xuezaijiongtu'@'113.111.91.220' (using password: YES)
+
+[ 2013-07-29T17:20:46+08:00 ] 127.0.0.1 /fridaysystem/index.php/Login/Checklogin?username=xtuone&password=123456
+ERR: Access denied for user 'xuezaijiongt'@'113.111.91.220' (using password: YES)
+
+[ 2013-07-29T17:21:48+08:00 ] 127.0.0.1 /fridaysystem/index.php/Login/Checklogin?username=xtuone&password=123456
+ERR: Access denied for user 'xuezaijiongtu'@'113.111.91.220' (using password: YES)
+
+[ 2013-07-29T17:22:08+08:00 ] 127.0.0.1 /fridaysystem/index.php/Login/Checklogin?username=xtuone&password=123456
+ERR: Access denied for user 'xuezaijiongtu'@'localhost' (using password: YES)
+
+[ 2013-07-29T17:22:44+08:00 ] 127.0.0.1 /fridaysystem/index.php/Login/Checklogin?username=xtuone&password=123456
+ERR: Access denied for user 'xuezaijiongtu'@'113.111.91.220' (using password: YES)
+
+[ 2013-07-29T17:23:38+08:00 ] 127.0.0.1 /fridaysystem/index.php/Login/Checklogin?username=xtuone&password=123456
+ERR: Access denied for user 'xuezaijiongtu'@'localhost' (using password: YES)
+
+[ 2013-07-29T17:23:50+08:00 ] 127.0.0.1 /fridaysystem/index.php/Login/Checklogin?username=xtuone&password=123456
+ERR: Access denied for user 'xuezaijiongtu'@'113.111.91.220' (using password: YES)
+
+[ 2013-07-29T17:31:11+08:00 ] 127.0.0.1 /fridaysystem/index.php/Login/Checklogin?username=xtuone&password=123456
+ERR: Access denied for user 'xuezaijiongtu'@'113.111.91.220' (using password: YES)
+
+[ 2013-07-29T17:31:21+08:00 ] 127.0.0.1 /fridaysystem/index.php/Login/Checklogin?username=xtuone&password=123456
+ERR: Access denied for user 'xuezaijiongtu'@'113.111.91.220' (using password: YES)
+
+[ 2013-07-29T17:35:08+08:00 ] 127.0.0.1 /fridaysystem/index.php/Login/Checklogin?username=xtuone&password=123456
+ERR: Access denied for user 'xing'@'113.111.91.220' (using password: YES)
+
+[ 2013-07-29T17:35:13+08:00 ] 127.0.0.1 /fridaysystem/index.php/Login/Checklogin?username=xtuone&password=123456
+ERR: Access denied for user 'xing'@'113.111.91.220' (using password: YES)
+
+[ 2013-07-29T17:48:49+08:00 ] 127.0.0.1 /fridaysystem/index.php/Login/checkLogin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003299s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.084410s ]
+SQL: SELECT * FROM `admin` WHERE ( `admin_account` = 'xtuone' ) LIMIT 1   [ RunTime:0.147502s ]
+
+[ 2013-07-29T17:49:26+08:00 ] 127.0.0.1 /fridaysystem/index.php/Login/checkLogin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002044s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.145158s ]
+SQL: SELECT * FROM `admin` WHERE ( `admin_account` = 'xtuone' ) LIMIT 1   [ RunTime:0.185817s ]
+
+[ 2013-07-29T17:49:28+08:00 ] 127.0.0.1 /fridaysystem/index.php/Login/checkLogin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001909s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.072956s ]
+SQL: SELECT * FROM `admin` WHERE ( `admin_account` = 'xtuone' ) LIMIT 1   [ RunTime:0.090368s ]
+
+[ 2013-07-29T17:51:07+08:00 ] 127.0.0.1 /fridaysystem/index.php/Login/checkLogin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003473s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.125898s ]
+SQL: SELECT * FROM `admin` WHERE ( `admin_account` = 'xtuone' ) LIMIT 1   [ RunTime:0.100263s ]
+
+[ 2013-07-29T17:51:39+08:00 ] 127.0.0.1 /fridaysystem/index.php/Login/checkLogin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001392s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.082844s ]
+SQL: SELECT * FROM `admin` WHERE ( `admin_account` = 'xtuone' ) LIMIT 1   [ RunTime:0.063095s ]
+
+[ 2013-07-29T18:01:36+08:00 ] 127.0.0.1 /fridaysystem/index.php/Login/checkLogin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.110959s ]
+SQL: SELECT * FROM `admin` WHERE ( `admin_account` = 'xtuone' ) LIMIT 1   [ RunTime:0.068684s ]
+
+[ 2013-07-29T18:02:26+08:00 ] 127.0.0.1 /fridaysystem/index.php/Login/checkLogin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.072492s ]
+SQL: SELECT * FROM `admin` WHERE ( `admin_account` = 'xtuone' ) LIMIT 1   [ RunTime:0.078559s ]
+
+[ 2013-07-29T23:43:47+08:00 ] 127.0.0.1 /fridaysystem/index.php/Login/checkLogin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002389s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.057553s ]
+SQL: SELECT * FROM `admin` WHERE ( `admin_account` = 'xtuone' ) LIMIT 1   [ RunTime:0.057300s ]
+

@@ -1,0 +1,57 @@
+[ 2013-07-31T09:24:49+08:00 ] 127.0.0.1 /fridaysystem/index.php/Login/CheckLogin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001100s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.053857s ]
+SQL: SELECT * FROM `admin` WHERE ( `admin_account` = 'xtuone' ) LIMIT 1   [ RunTime:0.053221s ]
+
+[ 2013-07-31T09:24:54+08:00 ] 127.0.0.1 /fridaysystem/index.php/SetApi/ApiMenuShow
+ERR: 无法加载模块:SetApi
+
+[ 2013-07-31T09:31:37+08:00 ] 127.0.0.1 /fridaysystem/index.php/School/js/jquery.js
+ERR: 非法操作:js
+
+[ 2013-07-31T09:31:37+08:00 ] 127.0.0.1 /fridaysystem/index.php/School/js/kindeditor-min.js
+ERR: 非法操作:js
+
+[ 2013-07-31T09:31:37+08:00 ] 127.0.0.1 /fridaysystem/index.php/School/css/admin_box.css
+ERR: 非法操作:css
+
+[ 2013-07-31T09:31:37+08:00 ] 127.0.0.1 /fridaysystem/index.php/School/css/base.css
+ERR: 非法操作:css
+
+[ 2013-07-31T22:46:03+08:00 ] 127.0.0.1 /fridaysystem/index.php/Login/CheckLogin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001214s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.058436s ]
+ERR: Model:Login您所请求的方法不存在！
+
+[ 2013-07-31T22:46:05+08:00 ] 127.0.0.1 /fridaysystem/index.php/Login/CheckLogin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.059214s ]
+ERR: Model:Login您所请求的方法不存在！
+
+[ 2013-07-31T22:46:14+08:00 ] 127.0.0.1 /fridaysystem/index.php/Login/CheckLogin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.057477s ]
+ERR: Model:Login您所请求的方法不存在！
+
+[ 2013-07-31T22:49:23+08:00 ] 127.0.0.1 /fridaysystem/index.php/Login/CheckLogin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.059375s ]
+ERR: Model:Login您所请求的方法不存在！
+
+[ 2013-07-31T22:49:25+08:00 ] 127.0.0.1 /fridaysystem/index.php/Login/CheckLogin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.059587s ]
+ERR: Model:Login您所请求的方法不存在！
+

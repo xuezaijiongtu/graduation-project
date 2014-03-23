@@ -1,0 +1,143 @@
+[ 2013-08-09T10:39:31+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/WeekData
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000202s ]
+NOTIC: [2] file_get_contents(/var/www/fridaysystem/2/friday/Data/SchoolData.txt): failed to open stream: No such file or directory /var/www/fridaysystem/2/friday/Lib/Action/SchoolAction.class.php 第 42 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/fridaysystem/2/friday/Lib/Action/SchoolAction.class.php 第 45 行.
+
+[ 2013-08-09T10:39:39+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/SchoolGrade
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+NOTIC: [2] file_get_contents(/var/www/fridaysystem/2/friday/Data/SchoolData.txt): failed to open stream: No such file or directory /var/www/fridaysystem/2/friday/Lib/Action/SchoolAction.class.php 第 22 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/fridaysystem/2/friday/Lib/Action/SchoolAction.class.php 第 25 行.
+
+[ 2013-08-09T10:41:00+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/SchoolGrade
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000196s ]
+NOTIC: [2] file_get_contents(/var/www/fridaysystem/2/friday/Data/SchoolData.txt): failed to open stream: No such file or directory /var/www/fridaysystem/2/friday/Lib/Action/SchoolAction.class.php 第 22 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/fridaysystem/2/friday/Lib/Action/SchoolAction.class.php 第 25 行.
+
+[ 2013-08-09T10:44:39+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/SchoolGrade
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+NOTIC: [2] file_get_contents(/var/www/fridaysystem/2/friday/Data/SchoolData.txt): failed to open stream: No such file or directory /var/www/fridaysystem/2/friday/Lib/Action/SchoolAction.class.php 第 22 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/fridaysystem/2/friday/Lib/Action/SchoolAction.class.php 第 25 行.
+
+[ 2013-08-09T10:49:40+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/SchoolGrade
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000263s ]
+
+[ 2013-08-09T10:49:50+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/WeekData
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+
+[ 2013-08-09T10:50:19+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/SchoolGrade
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+
+[ 2013-08-09T10:50:25+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/SchoolGrade
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+
+[ 2013-08-09T10:50:36+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/WeekData
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+
+[ 2013-08-09T10:50:41+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/WeekData
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+
+[ 2013-08-09T10:51:50+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/SchoolGrade
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000228s ]
+
+[ 2013-08-09T10:53:39+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/SchoolGrade
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000207s ]
+
+[ 2013-08-09T10:53:50+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/WeekData
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000224s ]
+
+[ 2013-08-09T11:15:52+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/SchoolGrade
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000215s ]
+
+[ 2013-08-09T15:08:44+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/Login/CheckLogin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001467s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.054933s ]
+SQL: SELECT * FROM `admin` WHERE ( `admin_account` = 'xtuone' ) LIMIT 1   [ RunTime:0.051689s ]
+
+[ 2013-08-09T15:09:56+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/LineStat/LineList
+ERR: 无法加载模块:LineStat
+
+[ 2013-08-09T15:42:10+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/SchoolGrade
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+
+[ 2013-08-09T15:42:16+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/WeekData
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+
+[ 2013-08-09T15:42:25+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/WeekData
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001200s ]
+
+[ 2013-08-09T15:42:34+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/WeekData
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+
+[ 2013-08-09T17:35:18+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/SchoolGrade
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+
+[ 2013-08-09T17:35:31+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/WeekData
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+
+[ 2013-08-09T17:35:58+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/SchoolGrade
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+
+[ 2013-08-09T17:36:37+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/WeekData
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+
+[ 2013-08-09T17:37:20+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/WeekData
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+
+[ 2013-08-09T17:37:51+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/WeekData
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+
+[ 2013-08-09T17:40:36+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/SchoolGrade
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+

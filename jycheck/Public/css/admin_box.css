@@ -1,0 +1,69 @@
+A {
+	COLOR: #333; TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+#contain {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 10px; MARGIN: 0px auto; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 10px
+}
+#search_div {
+	BORDER-BOTTOM: #dbe1e6 1px solid; BORDER-LEFT: #dbe1e6 1px solid; PADDING-BOTTOM: 6px; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; MARGIN-BOTTOM: 10px; BACKGROUND: #f7f7fa; BORDER-TOP: #dbe1e6 1px solid; BORDER-RIGHT: #dbe1e6 1px solid; PADDING-TOP: 6px
+}
+.form_box {
+	BORDER-BOTTOM: #ddd 1px solid; BORDER-LEFT: #ddd 1px solid; PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BORDER-TOP: #ddd 1px solid; BORDER-RIGHT: #ddd 1px solid; PADDING-TOP: 5px
+}
+INPUT.button {
+	BACKGROUND: url(buttonbg.png) #f7f7f7 repeat-x left top
+}
+BUTTON.button {
+	BACKGROUND: url(buttonbg.png) #f7f7f7 repeat-x left top
+}
+A.button {
+	BACKGROUND: url(buttonbg.png) #f7f7f7 repeat-x left top
+}
+INPUT.button:hover {
+	BACKGROUND: url(buttonbg.png) #f7f7f7 repeat-x left bottom
+}
+BUTTON.button:hover {
+	BACKGROUND: url(buttonbg.png) #f7f7f7 repeat-x left bottom
+}
+A.button:hover {
+	BACKGROUND: url(buttonbg.png) #f7f7f7 repeat-x left bottom
+}
+.ruler.input {
+	BORDER-BOTTOM: #999 1px solid; BORDER-LEFT: #999 1px solid; WIDTH: 400px; BACKGROUND: url(../images/ruler.gif) #ffffff repeat-x left bottom; BORDER-TOP: #999 1px solid; BORDER-RIGHT: #999 1px solid
+}
+.date.input {
+	BORDER-BOTTOM: #999 1px solid; BORDER-LEFT: #999 1px solid; WIDTH: 170px; BACKGROUND: url(../images/date.gif) #ffffff no-repeat 160px 4px; BORDER-TOP: #999 1px solid; MARGIN-RIGHT: 3px; BORDER-RIGHT: #999 1px solid
+}
+.inputfile {
+	BORDER-BOTTOM: #999 1px solid; BORDER-LEFT: #999 1px solid; PADDING-BOTTOM: 0px; LINE-HEIGHT: 28px; MARGIN: 0px 5px 0px 0px; PADDING-LEFT: 5px; WIDTH: 400px; PADDING-RIGHT: 5px; BACKGROUND: #ffffff; FLOAT: left; HEIGHT: 28px; VERTICAL-ALIGN: middle; BORDER-TOP: #999 1px solid; BORDER-RIGHT: #999 1px solid; PADDING-TOP: 0px
+}
+.admin_title {
+	LINE-HEIGHT: 32px; HEIGHT: 40px; COLOR: #000; FONT-SIZE: 16px; FONT-WEIGHT: bold
+}
+.admin_title H2 {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 32px; MARGIN: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BACKGROUND: #fff; FLOAT: left; HEIGHT: 32px; COLOR: #333; FONT-SIZE: 16px; FONT-WEIGHT: 700; PADDING-TOP: 0px
+}
+.admin_title A {
+	BORDER-BOTTOM: #c2d1d8 1px solid; BORDER-LEFT: #c2d1d8 1px solid; PADDING-BOTTOM: 0px; LINE-HEIGHT: 26px; MARGIN-TOP: 2px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BACKGROUND: url(buttonbg.png) #f7f7fa repeat-x left 0px; FLOAT: left; HEIGHT: 26px; COLOR: #333; MARGIN-LEFT: 8px; FONT-SIZE: 12px; BORDER-TOP: #c2d1d8 1px solid; CURSOR: pointer; BORDER-RIGHT: #c2d1d8 1px solid; PADDING-TOP: 0px
+}
+.admin_title A.right {
+	FLOAT: right
+}
+.admin_title A:hover {
+	BORDER-BOTTOM: #3071bf 1px solid; BORDER-LEFT: #3071bf 1px solid; BACKGROUND: url(../images/buttonbg.png) #005d9f repeat-x left bottom; COLOR: #fff; BORDER-TOP: #3071bf 1px solid; BORDER-RIGHT: #3071bf 1px solid; TEXT-DECORATION: none
+}
+.admin_menu {
+	PADDING-BOTTOM: 5px; LINE-HEIGHT: 28px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BACKGROUND: #eceff2; HEIGHT: 28px; PADDING-TOP: 5px
+}
+.admin_menu A {
+	BORDER-BOTTOM: #c2d1d8 1px solid; BORDER-LEFT: #c2d1d8 1px solid; PADDING-BOTTOM: 0px; LINE-HEIGHT: 26px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BACKGROUND: url(buttonbg.png) #f7f7fa repeat-x left 0px; FLOAT: left; HEIGHT: 26px; COLOR: #333; FONT-SIZE: 12px; BORDER-TOP: #c2d1d8 1px solid; CURSOR: pointer; MARGIN-RIGHT: 5px; BORDER-RIGHT: #c2d1d8 1px solid; PADDING-TOP: 0px
+}
+.admin_menu A.right {
+	FLOAT: right; MARGIN-LEFT: 5px; MARGIN-RIGHT: 0px
+}
+.admin_menu A:hover {
+	BORDER-BOTTOM: #3071bf 1px solid; BORDER-LEFT: #3071bf 1px solid; BACKGROUND: url(../images/buttonbg.png) #005d9f repeat-x left bottom; COLOR: #fff; BORDER-TOP: #3071bf 1px solid; BORDER-RIGHT: #3071bf 1px solid; TEXT-DECORATION: none
+}

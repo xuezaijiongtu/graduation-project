@@ -1,0 +1,507 @@
+[ 2014-02-27T00:11:28+08:00 ] 127.0.0.1 /jycheck/index.php/CheckData/getAllUncomeStudentName
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001422s ]
+NOTIC: [8] Undefined index: record_id D:\wamp\www\jycheck\jycheck\Lib\Action\CheckDataAction.class.php 第 56 行.
+NOTIC: [2048] Declaration of CheckDataModel::Delete() should be compatible with Model::delete($options = ) D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `check_data` [ RunTime:0.006230s ]
+ERR: 1146:Table 'jycheck.check_data' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `check_data`
+SQL: SELECT record_info FROM checkrecord WHERE record_id = '' [ RunTime:0.000562s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 66 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 69 行.
+
+[ 2014-02-27T00:11:53+08:00 ] 127.0.0.1 /jycheck/index.php/CheckData/getAllUncomeStudentName
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001467s ]
+NOTIC: [8] Undefined index: record_id D:\wamp\www\jycheck\jycheck\Lib\Action\CheckDataAction.class.php 第 56 行.
+NOTIC: [2048] Declaration of CheckDataModel::Delete() should be compatible with Model::delete($options = ) D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `check_data` [ RunTime:0.003957s ]
+ERR: 1146:Table 'jycheck.check_data' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `check_data`
+SQL: SELECT record_info FROM checkrecord WHERE record_id = '' [ RunTime:0.000323s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 66 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 69 行.
+
+[ 2014-02-27T00:12:19+08:00 ] 127.0.0.1 /jycheck/index.php/CheckData/getAllUncomeStudentName
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001720s ]
+NOTIC: [8] Undefined index: record_id D:\wamp\www\jycheck\jycheck\Lib\Action\CheckDataAction.class.php 第 56 行.
+NOTIC: [2048] Declaration of CheckDataModel::Delete() should be compatible with Model::delete($options = ) D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `check_data` [ RunTime:0.003946s ]
+ERR: 1146:Table 'jycheck.check_data' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `check_data`
+SQL: SELECT record_info FROM checkrecord WHERE record_id = '' [ RunTime:0.000327s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 66 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 69 行.
+
+[ 2014-02-27T00:12:45+08:00 ] 127.0.0.1 /jycheck/index.php/CheckData/getAllUncomeStudentName
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002006s ]
+NOTIC: [2048] Declaration of CheckDataModel::Delete() should be compatible with Model::delete($options = ) D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `check_data` [ RunTime:0.004388s ]
+ERR: 1146:Table 'jycheck.check_data' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `check_data`
+SQL: SELECT record_info FROM checkrecord WHERE record_id = '21' [ RunTime:0.000410s ]
+SQL: SELECT name FROM student WHERE uid = '101100005' [ RunTime:0.000325s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100014' [ RunTime:0.000313s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100016' [ RunTime:0.000294s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100017' [ RunTime:0.000307s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100020' [ RunTime:0.000295s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100035' [ RunTime:0.000291s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100036' [ RunTime:0.000300s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100038' [ RunTime:0.000302s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100039' [ RunTime:0.000270s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100045' [ RunTime:0.000294s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100049' [ RunTime:0.000289s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100002' [ RunTime:0.000290s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100021' [ RunTime:0.000290s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100037' [ RunTime:0.000299s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100018' [ RunTime:0.000299s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101010224' [ RunTime:0.000302s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+
+[ 2014-02-27T00:12:54+08:00 ] 127.0.0.1 /jycheck/index.php/CheckData/getAllUncomeStudentName
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001653s ]
+NOTIC: [2048] Declaration of CheckDataModel::Delete() should be compatible with Model::delete($options = ) D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `check_data` [ RunTime:0.003712s ]
+ERR: 1146:Table 'jycheck.check_data' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `check_data`
+SQL: SELECT record_info FROM checkrecord WHERE record_id = '20' [ RunTime:0.000323s ]
+SQL: SELECT name FROM student WHERE uid = '101100005' [ RunTime:0.000236s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100020' [ RunTime:0.000224s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100035' [ RunTime:0.000210s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100036' [ RunTime:0.000207s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100038' [ RunTime:0.000191s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100039' [ RunTime:0.000206s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100045' [ RunTime:0.000203s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100049' [ RunTime:0.000212s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100002' [ RunTime:0.000205s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100021' [ RunTime:0.000205s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100037' [ RunTime:0.000202s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100018' [ RunTime:0.000193s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101010224' [ RunTime:0.000203s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+
+[ 2014-02-27T00:13:00+08:00 ] 127.0.0.1 /jycheck/index.php/CheckData/getAllUncomeStudentName
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001642s ]
+NOTIC: [2048] Declaration of CheckDataModel::Delete() should be compatible with Model::delete($options = ) D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `check_data` [ RunTime:0.006328s ]
+ERR: 1146:Table 'jycheck.check_data' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `check_data`
+SQL: SELECT record_info FROM checkrecord WHERE record_id = '17' [ RunTime:0.000518s ]
+SQL: SELECT name FROM student WHERE uid = '101100005' [ RunTime:0.000383s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100038' [ RunTime:0.000373s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100039' [ RunTime:0.000342s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100045' [ RunTime:0.000336s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100049' [ RunTime:0.000330s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100002' [ RunTime:0.000328s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100021' [ RunTime:0.000325s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100037' [ RunTime:0.000350s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100018' [ RunTime:0.000327s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101010224' [ RunTime:0.000332s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+
+[ 2014-02-27T00:13:36+08:00 ] 127.0.0.1 /jycheck/index.php/CheckData/getAllUncomeStudentName
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001679s ]
+NOTIC: [2048] Declaration of CheckDataModel::Delete() should be compatible with Model::delete($options = ) D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `check_data` [ RunTime:0.006628s ]
+ERR: 1146:Table 'jycheck.check_data' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `check_data`
+SQL: SELECT record_info FROM checkrecord WHERE record_id = '21' [ RunTime:0.000551s ]
+SQL: SELECT name FROM student WHERE uid = '101100005' [ RunTime:0.000448s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100014' [ RunTime:0.000457s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100016' [ RunTime:0.000412s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100017' [ RunTime:0.000428s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100020' [ RunTime:0.000416s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100035' [ RunTime:0.000479s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100036' [ RunTime:0.000486s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100038' [ RunTime:0.000476s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100039' [ RunTime:0.000477s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100045' [ RunTime:0.000457s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100049' [ RunTime:0.000492s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100002' [ RunTime:0.000508s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100021' [ RunTime:0.000472s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100037' [ RunTime:0.000480s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100018' [ RunTime:0.000498s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101010224' [ RunTime:0.000488s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+
+[ 2014-02-27T00:14:00+08:00 ] 127.0.0.1 /jycheck/index.php/CheckData/getAllUncomeStudentName
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001437s ]
+NOTIC: [2048] Declaration of CheckDataModel::Delete() should be compatible with Model::delete($options = ) D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `check_data` [ RunTime:0.004739s ]
+ERR: 1146:Table 'jycheck.check_data' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `check_data`
+SQL: SELECT record_info FROM checkrecord WHERE record_id = '21' [ RunTime:0.000467s ]
+SQL: SELECT name FROM student WHERE uid = '101100005' [ RunTime:0.000408s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100014' [ RunTime:0.000399s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100016' [ RunTime:0.000388s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100017' [ RunTime:0.000383s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100020' [ RunTime:0.000370s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100035' [ RunTime:0.000321s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100036' [ RunTime:0.000309s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100038' [ RunTime:0.000386s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100039' [ RunTime:0.000387s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100045' [ RunTime:0.000386s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100049' [ RunTime:0.000384s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100002' [ RunTime:0.000384s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100021' [ RunTime:0.000385s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100037' [ RunTime:0.000384s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101100018' [ RunTime:0.000396s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+SQL: SELECT name FROM student WHERE uid = '101010224' [ RunTime:0.000385s ]
+NOTIC: [2] end() expects parameter 1 to be array, null given D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 72 行.
+
+[ 2014-02-27T00:14:35+08:00 ] 127.0.0.1 /jycheck/index.php/CheckData/getAllUncomeStudentName
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001858s ]
+NOTIC: [2048] Declaration of CheckDataModel::Delete() should be compatible with Model::delete($options = ) D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `check_data` [ RunTime:0.004563s ]
+ERR: 1146:Table 'jycheck.check_data' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `check_data`
+SQL: SELECT record_info FROM checkrecord WHERE record_id = '21' [ RunTime:0.000426s ]
+SQL: SELECT name FROM student WHERE uid = '101100005' [ RunTime:0.000320s ]
+SQL: SELECT name FROM student WHERE uid = '101100014' [ RunTime:0.000323s ]
+SQL: SELECT name FROM student WHERE uid = '101100016' [ RunTime:0.000297s ]
+SQL: SELECT name FROM student WHERE uid = '101100017' [ RunTime:0.000300s ]
+SQL: SELECT name FROM student WHERE uid = '101100020' [ RunTime:0.000293s ]
+SQL: SELECT name FROM student WHERE uid = '101100035' [ RunTime:0.000290s ]
+SQL: SELECT name FROM student WHERE uid = '101100036' [ RunTime:0.000317s ]
+SQL: SELECT name FROM student WHERE uid = '101100038' [ RunTime:0.000307s ]
+SQL: SELECT name FROM student WHERE uid = '101100039' [ RunTime:0.000297s ]
+SQL: SELECT name FROM student WHERE uid = '101100045' [ RunTime:0.000290s ]
+SQL: SELECT name FROM student WHERE uid = '101100049' [ RunTime:0.000288s ]
+SQL: SELECT name FROM student WHERE uid = '101100002' [ RunTime:0.000290s ]
+SQL: SELECT name FROM student WHERE uid = '101100021' [ RunTime:0.000289s ]
+SQL: SELECT name FROM student WHERE uid = '101100037' [ RunTime:0.000286s ]
+SQL: SELECT name FROM student WHERE uid = '101100018' [ RunTime:0.000326s ]
+SQL: SELECT name FROM student WHERE uid = '101010224' [ RunTime:0.000287s ]
+
+[ 2014-02-27T00:15:04+08:00 ] 127.0.0.1 /jycheck/index.php/CheckData/getAllUncomeStudentName
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001850s ]
+NOTIC: [2048] Declaration of CheckDataModel::Delete() should be compatible with Model::delete($options = ) D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `check_data` [ RunTime:0.006818s ]
+ERR: 1146:Table 'jycheck.check_data' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `check_data`
+SQL: SELECT record_info FROM checkrecord WHERE record_id = '21' [ RunTime:0.000578s ]
+SQL: SELECT name FROM student WHERE uid = '101100005' [ RunTime:0.000497s ]
+SQL: SELECT name FROM student WHERE uid = '101100014' [ RunTime:0.000507s ]
+SQL: SELECT name FROM student WHERE uid = '101100016' [ RunTime:0.000478s ]
+SQL: SELECT name FROM student WHERE uid = '101100017' [ RunTime:0.000489s ]
+SQL: SELECT name FROM student WHERE uid = '101100020' [ RunTime:0.000485s ]
+SQL: SELECT name FROM student WHERE uid = '101100035' [ RunTime:0.000479s ]
+SQL: SELECT name FROM student WHERE uid = '101100036' [ RunTime:0.000487s ]
+SQL: SELECT name FROM student WHERE uid = '101100038' [ RunTime:0.000494s ]
+SQL: SELECT name FROM student WHERE uid = '101100039' [ RunTime:0.000489s ]
+SQL: SELECT name FROM student WHERE uid = '101100045' [ RunTime:0.000458s ]
+SQL: SELECT name FROM student WHERE uid = '101100049' [ RunTime:0.000477s ]
+SQL: SELECT name FROM student WHERE uid = '101100002' [ RunTime:0.000486s ]
+SQL: SELECT name FROM student WHERE uid = '101100021' [ RunTime:0.000477s ]
+SQL: SELECT name FROM student WHERE uid = '101100037' [ RunTime:0.000479s ]
+SQL: SELECT name FROM student WHERE uid = '101100018' [ RunTime:0.000516s ]
+SQL: SELECT name FROM student WHERE uid = '101010224' [ RunTime:0.000475s ]
+
+[ 2014-02-27T00:15:14+08:00 ] 127.0.0.1 /jycheck/index.php/CheckData/getAllUncomeStudentName
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001686s ]
+NOTIC: [2048] Declaration of CheckDataModel::Delete() should be compatible with Model::delete($options = ) D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `check_data` [ RunTime:0.006816s ]
+ERR: 1146:Table 'jycheck.check_data' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `check_data`
+SQL: SELECT record_info FROM checkrecord WHERE record_id = '19' [ RunTime:0.000567s ]
+SQL: SELECT name FROM student WHERE uid = '101100005' [ RunTime:0.000431s ]
+SQL: SELECT name FROM student WHERE uid = '101100049' [ RunTime:0.000429s ]
+SQL: SELECT name FROM student WHERE uid = '101100018' [ RunTime:0.000401s ]
+SQL: SELECT name FROM student WHERE uid = '101010224' [ RunTime:0.000401s ]
+
+[ 2014-02-27T00:15:51+08:00 ] 127.0.0.1 /jycheck/index.php/CheckData/getAllUncomeStudentName
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001631s ]
+NOTIC: [2048] Declaration of CheckDataModel::Delete() should be compatible with Model::delete($options = ) D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `check_data` [ RunTime:0.006476s ]
+ERR: 1146:Table 'jycheck.check_data' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `check_data`
+SQL: SELECT record_info FROM checkrecord WHERE record_id = '21' [ RunTime:0.000596s ]
+SQL: SELECT name FROM student WHERE uid = '101100005' [ RunTime:0.000525s ]
+SQL: SELECT name FROM student WHERE uid = '101100014' [ RunTime:0.000499s ]
+SQL: SELECT name FROM student WHERE uid = '101100016' [ RunTime:0.000495s ]
+SQL: SELECT name FROM student WHERE uid = '101100017' [ RunTime:0.000479s ]
+SQL: SELECT name FROM student WHERE uid = '101100020' [ RunTime:0.000479s ]
+SQL: SELECT name FROM student WHERE uid = '101100035' [ RunTime:0.000517s ]
+SQL: SELECT name FROM student WHERE uid = '101100036' [ RunTime:0.000471s ]
+SQL: SELECT name FROM student WHERE uid = '101100038' [ RunTime:0.000479s ]
+SQL: SELECT name FROM student WHERE uid = '101100039' [ RunTime:0.000488s ]
+SQL: SELECT name FROM student WHERE uid = '101100045' [ RunTime:0.000479s ]
+SQL: SELECT name FROM student WHERE uid = '101100049' [ RunTime:0.000483s ]
+SQL: SELECT name FROM student WHERE uid = '101100002' [ RunTime:0.000477s ]
+SQL: SELECT name FROM student WHERE uid = '101100021' [ RunTime:0.000498s ]
+SQL: SELECT name FROM student WHERE uid = '101100037' [ RunTime:0.000509s ]
+SQL: SELECT name FROM student WHERE uid = '101100018' [ RunTime:0.000495s ]
+SQL: SELECT name FROM student WHERE uid = '101010224' [ RunTime:0.000481s ]
+
+[ 2014-02-27T00:16:05+08:00 ] 127.0.0.1 /jycheck/index.php/CheckData/getAllUncomeStudentName
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001644s ]
+NOTIC: [2048] Declaration of CheckDataModel::Delete() should be compatible with Model::delete($options = ) D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `check_data` [ RunTime:0.003792s ]
+ERR: 1146:Table 'jycheck.check_data' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `check_data`
+SQL: SELECT record_info FROM checkrecord WHERE record_id = '21' [ RunTime:0.000344s ]
+SQL: SELECT name FROM student WHERE uid = '101100005' [ RunTime:0.000272s ]
+SQL: SELECT name FROM student WHERE uid = '101100014' [ RunTime:0.000275s ]
+SQL: SELECT name FROM student WHERE uid = '101100016' [ RunTime:0.000255s ]
+SQL: SELECT name FROM student WHERE uid = '101100017' [ RunTime:0.000253s ]
+SQL: SELECT name FROM student WHERE uid = '101100020' [ RunTime:0.000261s ]
+SQL: SELECT name FROM student WHERE uid = '101100035' [ RunTime:0.000251s ]
+SQL: SELECT name FROM student WHERE uid = '101100036' [ RunTime:0.000249s ]
+SQL: SELECT name FROM student WHERE uid = '101100038' [ RunTime:0.000270s ]
+SQL: SELECT name FROM student WHERE uid = '101100039' [ RunTime:0.000250s ]
+SQL: SELECT name FROM student WHERE uid = '101100045' [ RunTime:0.000248s ]
+SQL: SELECT name FROM student WHERE uid = '101100049' [ RunTime:0.000250s ]
+SQL: SELECT name FROM student WHERE uid = '101100002' [ RunTime:0.000249s ]
+SQL: SELECT name FROM student WHERE uid = '101100021' [ RunTime:0.000248s ]
+SQL: SELECT name FROM student WHERE uid = '101100037' [ RunTime:0.000242s ]
+SQL: SELECT name FROM student WHERE uid = '101100018' [ RunTime:0.000261s ]
+SQL: SELECT name FROM student WHERE uid = '101010224' [ RunTime:0.000249s ]
+
+[ 2014-02-27T00:16:22+08:00 ] 127.0.0.1 /jycheck/index.php/CheckData/getAllUncomeStudentName
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001625s ]
+NOTIC: [2048] Declaration of CheckDataModel::Delete() should be compatible with Model::delete($options = ) D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `check_data` [ RunTime:0.003920s ]
+ERR: 1146:Table 'jycheck.check_data' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `check_data`
+SQL: SELECT record_info FROM checkrecord WHERE record_id = '21' [ RunTime:0.000339s ]
+SQL: SELECT name FROM student WHERE uid = '101100005' [ RunTime:0.000273s ]
+SQL: SELECT name FROM student WHERE uid = '101100014' [ RunTime:0.000248s ]
+SQL: SELECT name FROM student WHERE uid = '101100016' [ RunTime:0.000252s ]
+SQL: SELECT name FROM student WHERE uid = '101100017' [ RunTime:0.000249s ]
+SQL: SELECT name FROM student WHERE uid = '101100020' [ RunTime:0.000257s ]
+SQL: SELECT name FROM student WHERE uid = '101100035' [ RunTime:0.000249s ]
+SQL: SELECT name FROM student WHERE uid = '101100036' [ RunTime:0.000249s ]
+SQL: SELECT name FROM student WHERE uid = '101100038' [ RunTime:0.000293s ]
+SQL: SELECT name FROM student WHERE uid = '101100039' [ RunTime:0.000251s ]
+SQL: SELECT name FROM student WHERE uid = '101100045' [ RunTime:0.000248s ]
+SQL: SELECT name FROM student WHERE uid = '101100049' [ RunTime:0.000260s ]
+SQL: SELECT name FROM student WHERE uid = '101100002' [ RunTime:0.000251s ]
+SQL: SELECT name FROM student WHERE uid = '101100021' [ RunTime:0.000247s ]
+SQL: SELECT name FROM student WHERE uid = '101100037' [ RunTime:0.000254s ]
+SQL: SELECT name FROM student WHERE uid = '101100018' [ RunTime:0.000257s ]
+SQL: SELECT name FROM student WHERE uid = '101010224' [ RunTime:0.000248s ]
+
+[ 2014-02-27T00:34:16+08:00 ] 127.0.0.1 /jycheck/index.php/CheckData/getCheckNumInfo
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001645s ]
+NOTIC: [2048] Declaration of CheckDataModel::Delete() should be compatible with Model::delete($options = ) D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `check_data` [ RunTime:0.003805s ]
+ERR: 1146:Table 'jycheck.check_data' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `check_data`
+SQL: SELECT record_come, record_uncome FROM checkrecord WHERE record_id = '21' [ RunTime:0.000380s ]
+
+[ 2014-02-27T00:37:14+08:00 ] 127.0.0.1 /jycheck/index.php/CheckData/getCheckNumInfo
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001669s ]
+NOTIC: [2048] Declaration of CheckDataModel::Delete() should be compatible with Model::delete($options = ) D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `check_data` [ RunTime:0.003874s ]
+ERR: 1146:Table 'jycheck.check_data' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `check_data`
+SQL: SELECT record_come, record_uncome FROM checkrecord WHERE record_id = '21' [ RunTime:0.000404s ]
+NOTIC: [8] Undefined index: record_come D:\wamp\www\jycheck\jycheck\Lib\Action\CheckDataAction.class.php 第 72 行.
+NOTIC: [8] Undefined index: record_uncome D:\wamp\www\jycheck\jycheck\Lib\Action\CheckDataAction.class.php 第 72 行.
+
+[ 2014-02-27T00:37:40+08:00 ] 127.0.0.1 /jycheck/index.php/CheckData/getCheckNumInfo
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001626s ]
+NOTIC: [2048] Declaration of CheckDataModel::Delete() should be compatible with Model::delete($options = ) D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `check_data` [ RunTime:0.003562s ]
+ERR: 1146:Table 'jycheck.check_data' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `check_data`
+SQL: SELECT record_come, record_uncome FROM checkrecord WHERE record_id = '20' [ RunTime:0.000329s ]
+NOTIC: [8] Undefined index: record_come D:\wamp\www\jycheck\jycheck\Lib\Action\CheckDataAction.class.php 第 72 行.
+NOTIC: [8] Undefined index: record_uncome D:\wamp\www\jycheck\jycheck\Lib\Action\CheckDataAction.class.php 第 72 行.
+
+[ 2014-02-27T00:44:31+08:00 ] 127.0.0.1 /jycheck/index.php/CheckData/getCheckNumInfo
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+NOTIC: [2048] Declaration of CheckDataModel::Delete() should be compatible with Model::delete($options = ) D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `check_data` [ RunTime:0.003306s ]
+ERR: 1146:Table 'jycheck.check_data' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `check_data`
+SQL: SELECT record_come, record_uncome FROM checkrecord WHERE record_id = '21' [ RunTime:0.000357s ]
+
+[ 2014-02-27T00:45:00+08:00 ] 127.0.0.1 /jycheck/index.php/CheckData/getCheckNumInfo
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001140s ]
+NOTIC: [2048] Declaration of CheckDataModel::Delete() should be compatible with Model::delete($options = ) D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `check_data` [ RunTime:0.003142s ]
+ERR: 1146:Table 'jycheck.check_data' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `check_data`
+SQL: SELECT record_come, record_uncome FROM checkrecord WHERE record_id = '21' [ RunTime:0.000261s ]
+
+[ 2014-02-27T00:45:46+08:00 ] 127.0.0.1 /jycheck/index.php/CheckData/getCheckNumInfo
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+NOTIC: [2048] Declaration of CheckDataModel::Delete() should be compatible with Model::delete($options = ) D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `check_data` [ RunTime:0.003155s ]
+ERR: 1146:Table 'jycheck.check_data' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `check_data`
+SQL: SELECT record_come, record_uncome FROM checkrecord WHERE record_id = '21' [ RunTime:0.000298s ]
+
+[ 2014-02-27T00:46:20+08:00 ] 127.0.0.1 /jycheck/index.php/CheckData/getCheckNumInfo
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001561s ]
+NOTIC: [2048] Declaration of CheckDataModel::Delete() should be compatible with Model::delete($options = ) D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `check_data` [ RunTime:0.003099s ]
+ERR: 1146:Table 'jycheck.check_data' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `check_data`
+SQL: SELECT record_come, record_uncome FROM checkrecord WHERE record_id = '21' [ RunTime:0.000301s ]
+
+[ 2014-02-27T00:51:16+08:00 ] 127.0.0.1 /jycheck/index.php/CheckData/getCheckNumInfo
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+NOTIC: [2048] Declaration of CheckDataModel::Delete() should be compatible with Model::delete($options = ) D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `check_data` [ RunTime:0.003194s ]
+ERR: 1146:Table 'jycheck.check_data' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `check_data`
+SQL: SELECT record_come, record_uncome FROM checkrecord WHERE record_id = '21' [ RunTime:0.000297s ]
+
+[ 2014-02-27T00:51:57+08:00 ] 127.0.0.1 /jycheck/index.php/ProvinceMessage/ProvinceInfoShow
+ERR: 无法加载模块:ProvinceMessage
+
+[ 2014-02-27T00:52:01+08:00 ] 127.0.0.1 /jycheck/index.php/CheckData/getCheckNumInfo
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001140s ]
+NOTIC: [2048] Declaration of CheckDataModel::Delete() should be compatible with Model::delete($options = ) D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `check_data` [ RunTime:0.003092s ]
+ERR: 1146:Table 'jycheck.check_data' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `check_data`
+SQL: SELECT record_come, record_uncome FROM checkrecord WHERE record_id = '21' [ RunTime:0.000275s ]
+
+[ 2014-02-27T01:11:14+08:00 ] 127.0.0.1 /jycheck/index.php/CheckData/getCheckNumInfo
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001269s ]
+NOTIC: [2048] Declaration of CheckDataModel::Delete() should be compatible with Model::delete($options = ) D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `check_data` [ RunTime:0.003152s ]
+ERR: 1146:Table 'jycheck.check_data' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `check_data`
+SQL: SELECT record_come, record_uncome FROM checkrecord WHERE record_id = '21' [ RunTime:0.000280s ]
+
+[ 2014-02-27T01:17:54+08:00 ] 127.0.0.1 /jycheck/index.php/CheckData/getCheckNumInfo
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+NOTIC: [2048] Declaration of CheckDataModel::Delete() should be compatible with Model::delete($options = ) D:\wamp\www\jycheck\jycheck\Lib\Model\CheckDataModel.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `check_data` [ RunTime:0.003397s ]
+ERR: 1146:Table 'jycheck.check_data' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `check_data`
+SQL: SELECT record_come, record_uncome FROM checkrecord WHERE record_id = '21' [ RunTime:0.000304s ]
+
+[ 2014-02-27T21:08:53+08:00 ] 127.0.0.1 /jycheck/index.php/Login/CheckLogin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.052660s ]
+SQL: SELECT * FROM `admin` WHERE ( `name` = 'admin' ) LIMIT 1   [ RunTime:0.002954s ]
+SQL: UPDATE admin SET id = '1', last_login_ip = '127.0.0.1', last_login_time ='2014-02-27 21:08:53' [ RunTime:0.004517s ]
+NOTIC: [2] mysql_num_rows() expects parameter 1 to be resource, boolean given D:\wamp\www\jycheck\include\Lib\Driver\Db\DbMysql.class.php 第 109 行.
+
+[ 2014-02-27T21:08:59+08:00 ] 127.0.0.1 /jycheck/index.php/SetApi/ApiMenuShow
+ERR: 无法加载模块:SetApi
+
+[ 2014-02-27T21:17:41+08:00 ] 127.0.0.1 /jycheck/index.php/SetApi/ApiMenuShow
+ERR: 无法加载模块:SetApi
+

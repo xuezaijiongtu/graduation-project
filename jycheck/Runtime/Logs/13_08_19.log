@@ -1,0 +1,965 @@
+[ 2013-08-19T09:28:16+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/Login/CheckLogin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.051034s ]
+SQL: SELECT * FROM `admin` WHERE ( `admin_account` = 'xtuone' ) LIMIT 1   [ RunTime:0.051891s ]
+
+[ 2013-08-19T09:29:18+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/EightWeekData
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+
+[ 2013-08-19T09:29:28+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/DayAddRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+
+[ 2013-08-19T09:29:54+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/DayAddRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+
+[ 2013-08-19T09:46:16+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/EightWeekData
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+
+[ 2013-08-19T09:46:21+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/EightWeekData
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001317s ]
+
+[ 2013-08-19T09:54:21+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/WeekDataRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+
+[ 2013-08-19T09:56:58+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/Login/CheckLogin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.065094s ]
+SQL: SELECT * FROM `admin` WHERE ( `admin_account` = 'xtuone' ) LIMIT 1   [ RunTime:0.062433s ]
+
+[ 2013-08-19T09:57:41+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/WeekDataRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+
+[ 2013-08-19T10:11:16+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/WeekDataRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+
+[ 2013-08-19T10:12:51+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/WeekDataRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+
+[ 2013-08-19T10:14:43+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/WeekDataRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001188s ]
+
+[ 2013-08-19T10:26:35+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/DayAddRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+
+[ 2013-08-19T10:26:45+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/WeekData
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+
+[ 2013-08-19T10:26:52+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/EightWeekData
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+
+[ 2013-08-19T10:26:55+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/WeekDataRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+
+[ 2013-08-19T10:29:56+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/WeekDataRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+
+[ 2013-08-19T10:37:35+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/WeekDataRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+
+[ 2013-08-19T10:38:38+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/WeekDataRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+
+[ 2013-08-19T10:39:57+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/WeekDataRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+
+[ 2013-08-19T10:40:27+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/WeekDataRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+
+[ 2013-08-19T10:40:37+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/EightWeekData
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+
+[ 2013-08-19T10:42:26+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/WeekDataRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+
+[ 2013-08-19T10:43:05+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/WeekDataRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+
+[ 2013-08-19T10:43:28+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/WeekDataRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+
+[ 2013-08-19T10:44:26+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/WeekDataRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+
+[ 2013-08-19T10:45:13+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/WeekDataRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+
+[ 2013-08-19T10:46:06+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/WeekDataRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+
+[ 2013-08-19T10:46:53+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/WeekDataRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+
+[ 2013-08-19T10:46:57+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/EightWeekData
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001254s ]
+
+[ 2013-08-19T10:47:01+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/WeekDataRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+
+[ 2013-08-19T10:47:33+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/WeekDataRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+
+[ 2013-08-19T10:47:38+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/EightWeekData
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+
+[ 2013-08-19T10:54:57+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/WeekDataRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+
+[ 2013-08-19T10:55:08+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/WeekDataRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001420s ]
+
+[ 2013-08-19T10:55:43+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/DayAddRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+
+[ 2013-08-19T11:04:56+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/WeekDataRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+
+[ 2013-08-19T11:05:07+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/WeekDataRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+
+[ 2013-08-19T11:20:47+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/WeekDataRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+
+[ 2013-08-19T11:20:56+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/WeekDataRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+
+[ 2013-08-19T11:27:59+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/WeekDataRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+
+[ 2013-08-19T11:28:07+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/WeekDataRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+
+[ 2013-08-19T11:28:30+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/SchoolGrade
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+
+[ 2013-08-19T11:29:56+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/SchoolMonthNum
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+
+[ 2013-08-19T11:31:18+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddNum
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.056746s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '1001' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.333045s ]
+
+[ 2013-08-19T11:31:19+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddNum
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.054101s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '1001' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.484210s ]
+
+[ 2013-08-19T11:43:57+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.104666s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(id) AS studentNum FROM stduent WHERE schoolId = '1001' [ RunTime:0.107541s ]
+ERR: 1146:Table 'friday.stduent' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(id) AS studentNum FROM stduent WHERE schoolId = '1001'
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '1001' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:1.019081s ]
+
+[ 2013-08-19T11:44:09+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.053126s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(id) AS studentNum FROM stduent WHERE schoolId = '1001' [ RunTime:0.050518s ]
+ERR: 1146:Table 'friday.stduent' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(id) AS studentNum FROM stduent WHERE schoolId = '1001'
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '1001' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.650727s ]
+
+[ 2013-08-19T11:44:46+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.060883s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(id) AS studentNum FROM stduent WHERE schoolId = '1001' [ RunTime:0.069674s ]
+ERR: 1146:Table 'friday.stduent' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(id) AS studentNum FROM stduent WHERE schoolId = '1001'
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '1001' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.594965s ]
+
+[ 2013-08-19T11:46:47+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.445164s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(id) AS studentNum FROM student WHERE schoolId = '1001' [ RunTime:0.126709s ]
+NOTIC: [8] Undefined index: studentNum D:\work_space\www\fridaysystem\2\friday\Lib\Action\SchoolAction.class.php 第 203 行.
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '1001' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.473624s ]
+
+[ 2013-08-19T11:49:05+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.068618s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(id) AS studentNum FROM student WHERE schoolId = '1001' [ RunTime:0.151965s ]
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '1001' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.499375s ]
+
+[ 2013-08-19T11:49:48+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.081288s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(id) AS studentNum FROM student WHERE schoolId = '1001' [ RunTime:0.226207s ]
+NOTIC: [8] Undefined index: studentNum D:\work_space\www\fridaysystem\2\friday\Lib\Action\SchoolAction.class.php 第 203 行.
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '1001' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.706894s ]
+
+[ 2013-08-19T11:50:25+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.050549s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(id) AS studentNum FROM student WHERE schoolId = '1001' [ RunTime:0.174685s ]
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '1001' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.818005s ]
+
+[ 2013-08-19T11:50:54+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddNum
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.053479s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '1001' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.933931s ]
+
+[ 2013-08-19T11:50:55+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddNum
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.048936s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '1001' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.436286s ]
+
+[ 2013-08-19T11:51:17+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.088742s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(id) AS studentNum FROM student WHERE schoolId = '1001' [ RunTime:0.184811s ]
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '1001' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.469701s ]
+
+[ 2013-08-19T11:51:46+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001246s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.075300s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(id) AS studentNum FROM student WHERE schoolId = '1001' [ RunTime:0.115041s ]
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '1001' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.612220s ]
+
+[ 2013-08-19T11:52:06+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.056100s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(id) AS studentNum FROM student WHERE schoolId = '1001' [ RunTime:0.135793s ]
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '1001' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.475775s ]
+
+[ 2013-08-19T12:00:09+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.654856s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(id) AS studentNum FROM student WHERE schoolId = '1001' [ RunTime:0.383124s ]
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '1001' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:2.083952s ]
+
+[ 2013-08-19T12:00:42+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.092920s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(id) AS studentNum FROM student WHERE schoolId = '1002' [ RunTime:0.093765s ]
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '1002' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.457382s ]
+
+[ 2013-08-19T12:01:03+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.062520s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(id) AS studentNum FROM student WHERE schoolId = '1001' [ RunTime:0.246038s ]
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '1001' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.513162s ]
+
+[ 2013-08-19T12:02:00+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddNum
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.064422s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '1001' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.753259s ]
+
+[ 2013-08-19T12:02:01+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddNum
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.092886s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '1001' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.298822s ]
+
+[ 2013-08-19T12:15:22+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.100707s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(id) AS studentNum FROM student WHERE schoolId = '1001' [ RunTime:0.136091s ]
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '1001' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.463996s ]
+
+[ 2013-08-19T12:15:58+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.050566s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(id) AS studentNum FROM student WHERE schoolId = '1001' [ RunTime:0.061330s ]
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '1001' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.384904s ]
+
+[ 2013-08-19T12:16:30+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.081299s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(id) AS studentNum FROM student WHERE schoolId = '1001' [ RunTime:0.199871s ]
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '1001' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.580961s ]
+
+[ 2013-08-19T12:16:52+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.079708s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(id) AS studentNum FROM student WHERE schoolId = '1001' [ RunTime:0.167474s ]
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '1001' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.492443s ]
+
+[ 2013-08-19T12:16:59+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddNum
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.122136s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '1001' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.347780s ]
+
+[ 2013-08-19T12:17:01+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddNum
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.079098s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '1001' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.497740s ]
+
+[ 2013-08-19T12:21:02+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.049313s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(id) AS studentNum FROM student WHERE schoolId = '12005' [ RunTime:0.078992s ]
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '12005' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.871063s ]
+
+[ 2013-08-19T12:21:38+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddNum
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.058712s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '12005' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.409693s ]
+
+[ 2013-08-19T12:21:40+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddNum
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.050957s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '12005' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.433297s ]
+
+[ 2013-08-19T12:22:56+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.051584s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(id) AS studentNum FROM student WHERE schoolId = '1001' [ RunTime:0.172149s ]
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '1001' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.516192s ]
+
+[ 2013-08-19T12:23:44+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.054213s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(id) AS studentNum FROM student WHERE schoolId = '1001' [ RunTime:0.204117s ]
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '1001' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.829087s ]
+
+[ 2013-08-19T12:24:14+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddNum
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.451489s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '1001' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.911520s ]
+
+[ 2013-08-19T12:24:16+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddNum
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.158813s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '1001' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.529666s ]
+
+[ 2013-08-19T12:26:52+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddNum
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.075729s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '1001' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.585385s ]
+
+[ 2013-08-19T12:26:54+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddNum
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001826s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.105622s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '1001' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.747650s ]
+
+[ 2013-08-19T12:28:03+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddNum
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.111386s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '1001' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.613301s ]
+
+[ 2013-08-19T12:28:05+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddNum
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.054043s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '1001' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.478316s ]
+
+[ 2013-08-19T12:29:09+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.051523s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(id) AS studentNum FROM student WHERE schoolId = '1002' [ RunTime:0.093273s ]
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '1002' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.786004s ]
+
+[ 2013-08-19T12:29:25+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.053980s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(id) AS studentNum FROM student WHERE schoolId = '1001' [ RunTime:0.355284s ]
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '1001' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.479873s ]
+
+[ 2013-08-19T12:29:46+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.050736s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(id) AS studentNum FROM student WHERE schoolId = '1002' [ RunTime:0.156125s ]
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '1002' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.841433s ]
+
+[ 2013-08-19T12:30:09+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddNum
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.082512s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '1002' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.872205s ]
+
+[ 2013-08-19T12:30:11+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddNum
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.051592s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '1002' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.489001s ]
+
+[ 2013-08-19T12:57:47+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001329s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.172511s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(id) AS studentNum FROM student WHERE schoolId = '1002' [ RunTime:0.140395s ]
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '1002' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:1.422953s ]
+
+[ 2013-08-19T12:57:57+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/SchoolGrade
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001411s ]
+
+[ 2013-08-19T12:58:02+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/SchoolMonthNum
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+
+[ 2013-08-19T12:58:06+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/WeekData
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000854s ]
+
+[ 2013-08-19T12:58:09+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/DayAddRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+
+[ 2013-08-19T12:58:12+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/EightWeekData
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+
+[ 2013-08-19T12:58:16+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/WeekDataRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+
+[ 2013-08-19T12:58:25+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddNum
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.061068s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '1001' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:1.511339s ]
+
+[ 2013-08-19T12:58:31+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddNum
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.068330s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '1001' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:2.001923s ]
+
+[ 2013-08-19T12:58:42+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.093826s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(id) AS studentNum FROM student WHERE schoolId = '1001' [ RunTime:0.128844s ]
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '1001' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.422294s ]
+
+[ 2013-08-19T14:32:46+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddNum
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.134966s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '1001' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.529411s ]
+
+[ 2013-08-19T14:32:47+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddNum
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001083s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.101515s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '1001' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.097963s ]
+
+[ 2013-08-19T14:34:50+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddNum
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.082618s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '1001' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.852484s ]
+
+[ 2013-08-19T14:37:23+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.058126s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(id) AS studentNum FROM student WHERE schoolId = '1001' [ RunTime:0.134282s ]
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '1001' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.777743s ]
+
+[ 2013-08-19T14:38:05+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.058800s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(id) AS studentNum FROM student WHERE schoolId = '1001' [ RunTime:0.114437s ]
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '1001' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.371734s ]
+
+[ 2013-08-19T14:39:01+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.582225s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(id) AS studentNum FROM student WHERE schoolId = '1001' [ RunTime:0.201598s ]
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '1001' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.423714s ]
+
+[ 2013-08-19T14:39:10+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/MonthAddRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.069304s ]
+ERR: 1146:Table 'fridaysystem.school' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `school`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(id) AS studentNum FROM student WHERE schoolId = '2001' [ RunTime:0.256712s ]
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '2001' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.288797s ]
+
+[ 2013-08-19T17:25:54+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/Login/CheckLogin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.053846s ]
+ERR: 1030:Got error 28 from storage engine
+ [ SQL语句 ] : SHOW COLUMNS FROM `admin`
+SQL: SELECT * FROM `admin` WHERE ( `admin_account` = 'xtuone' ) LIMIT 1   [ RunTime:0.052255s ]
+
+[ 2013-08-19T17:43:23+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/EightWeekData
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+
+[ 2013-08-19T18:48:08+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/Search
+ERR: Got error 28 from storage engine
+
+[ 2013-08-19T19:25:21+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/School/Search
+ERR: 无法加载模块:School
+
+[ 2013-08-19T19:29:34+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/DataMessage/SchoolGrade
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+
+[ 2013-08-19T19:29:38+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/DataMessage/SchoolMonthNum
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001444s ]
+
+[ 2013-08-19T19:29:41+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/DataMessage/WeekData
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001595s ]
+
+[ 2013-08-19T19:29:45+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/DataMessage/DayAddRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001157s ]
+
+[ 2013-08-19T19:29:50+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/DataMessage/EightWeekData
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001227s ]
+
+[ 2013-08-19T19:29:54+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/DataMessage/WeekDataRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001665s ]
+
+[ 2013-08-19T19:29:58+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/DataMessage/MonthAddNum
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+SQL: SHOW COLUMNS FROM `data_message` [ RunTime:0.061383s ]
+ERR: 1030:Got error 28 from storage engine
+ [ SQL语句 ] : SHOW COLUMNS FROM `data_message`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '30017' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.319059s ]
+
+[ 2013-08-19T19:30:03+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/DataMessage/MonthAddRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001205s ]
+SQL: SHOW COLUMNS FROM `data_message` [ RunTime:0.050080s ]
+ERR: 1030:Got error 28 from storage engine
+ [ SQL语句 ] : SHOW COLUMNS FROM `data_message`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(id) AS studentNum FROM student WHERE schoolId = '30017' [ RunTime:0.088415s ]
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '30017' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.370191s ]
+
+[ 2013-08-19T19:30:15+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/DataMessage/MonthAddRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001202s ]
+SQL: SHOW COLUMNS FROM `data_message` [ RunTime:0.085702s ]
+ERR: 1030:Got error 28 from storage engine
+ [ SQL语句 ] : SHOW COLUMNS FROM `data_message`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(id) AS studentNum FROM student WHERE schoolId = '30017' [ RunTime:0.073178s ]
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '30017' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.218061s ]
+
+[ 2013-08-19T19:30:20+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/DataMessage/MonthAddRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001184s ]
+SQL: SHOW COLUMNS FROM `data_message` [ RunTime:0.055059s ]
+ERR: 1030:Got error 28 from storage engine
+ [ SQL语句 ] : SHOW COLUMNS FROM `data_message`
+NOTIC: [8] Undefined index: db_dsn D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\work_space\www\fridaysystem\2\include\Lib\Core\Db.class.php 第 130 行.
+SQL: SELECT COUNT(id) AS studentNum FROM student WHERE schoolId = '30015' [ RunTime:0.095499s ]
+SQL: SELECT COUNT(student.id) AS AddNum, DATE_FORMAT(addTime, "%y-%m") AS month FROM student WHERE schoolId = '30015' GROUP BY DATE_FORMAT(addTime,"%y%m") [ RunTime:0.448053s ]
+
+[ 2013-08-19T19:30:51+08:00 ] 127.0.0.1 /fridaysystem/2/index.php/DataMessage/WeekDataRate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001253s ]
+
