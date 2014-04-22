@@ -75,5 +75,28 @@
 			$record  = D("CheckApi");
 			$record->AutoCommitCheckRecord($setTime);
 		}
+
+		/**
+		*教师登录
+		*/
+		public function login(){
+			if(!empty($_POST)){
+				$username   = $_POST['username'];
+				$password   = $_POST['password'];
+				$login      = D('CheckApi');
+				$Msg        = $login->getUserMsg($username, $password);
+				echo json_encode($Msg);
+			}
+		}
+
+		//根据教师ID获取旗下所有课程和所教班级
+		public function getFormMsg(){
+			if(!empty($_GET)){
+				$tech_id      = $_GET['tech_id'];
+				$getFormMsg   = D('CheckApi');
+				$Msg          = $getFormMsg->getFormMsg($tech_id);
+				echo json_encode($Msg);
+			}
+		}
 	}
 ?>

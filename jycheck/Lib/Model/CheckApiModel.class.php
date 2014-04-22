@@ -111,5 +111,28 @@
 				return false;
 			}
 		}
+
+		//用户登录
+		public function getUserMsg($username, $password){
+			$Msg      = array();
+			$login    = new model('teacher', '', '');
+			$username = mysql_real_escape_string($username);
+			$password = mysql_real_escape_string($password);
+			$info     = $login->query("SELECT tech_id FROM teacher WHERE tech_name = '".$username."' AND password = '".$password."'");
+			if(!empty($info[0]['tech_id'])){
+				$Msg['status'] = true;
+                $Msg['msg']    = "登录成功";
+                $Msg['userid'] = $info[0]['tech_id'];
+			}else{
+				$Msg['status'] = false;
+                $Msg['msg']    = "用户名或密码错误";
+			}
+			return $Msg;
+		}
+
+		//根据教师ID获取旗下所有课程和所教班级
+		public function getFormMsg($tech_id){
+			
+		}
 	}
 ?>

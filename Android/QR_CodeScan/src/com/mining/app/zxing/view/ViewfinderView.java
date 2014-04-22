@@ -30,7 +30,7 @@ import android.graphics.Typeface;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.example.jycheck.R;
+import com.example.qr_codescan.R;
 import com.google.zxing.ResultPoint;
 import com.mining.app.zxing.camera.CameraManager;
 
@@ -43,65 +43,65 @@ import com.mining.app.zxing.camera.CameraManager;
 public final class ViewfinderView extends View {
 	private static final String TAG = "log";
 	/**
-	 * Ë¢ÐÂ½çÃæµÄÊ±¼ä
+	 * Ë¢ï¿½Â½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½
 	 */
 	private static final long ANIMATION_DELAY = 10L;
 	private static final int OPAQUE = 0xFF;
 
 	/**
-	 * ËÄ¸öÂÌÉ«±ß½Ç¶ÔÓ¦µÄ³¤¶È
+	 * ï¿½Ä¸ï¿½ï¿½ï¿½É«ï¿½ß½Ç¶ï¿½Ó¦ï¿½Ä³ï¿½ï¿½ï¿½
 	 */
 	private int ScreenRate;
 	
 	/**
-	 * ËÄ¸öÂÌÉ«±ß½Ç¶ÔÓ¦µÄ¿í¶È
+	 * ï¿½Ä¸ï¿½ï¿½ï¿½É«ï¿½ß½Ç¶ï¿½Ó¦ï¿½Ä¿ï¿½ï¿½
 	 */
 	private static final int CORNER_WIDTH = 10;
 	/**
-	 * É¨Ãè¿òÖÐµÄÖÐ¼äÏßµÄ¿í¶È
+	 * É¨ï¿½ï¿½ï¿½ï¿½Ðµï¿½ï¿½Ð¼ï¿½ï¿½ßµÄ¿ï¿½ï¿½
 	 */
 	private static final int MIDDLE_LINE_WIDTH = 6;
 	
 	/**
-	 * É¨Ãè¿òÖÐµÄÖÐ¼äÏßµÄÓëÉ¨Ãè¿ò×óÓÒµÄ¼äÏ¶
+	 * É¨ï¿½ï¿½ï¿½ï¿½Ðµï¿½ï¿½Ð¼ï¿½ï¿½ßµï¿½ï¿½ï¿½É¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÒµÄ¼ï¿½Ï¶
 	 */
 	private static final int MIDDLE_LINE_PADDING = 5;
 	
 	/**
-	 * ÖÐ¼äÄÇÌõÏßÃ¿´ÎË¢ÐÂÒÆ¶¯µÄ¾àÀë
+	 * ï¿½Ð¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã¿ï¿½ï¿½Ë¢ï¿½ï¿½ï¿½Æ¶ï¿½ï¿½Ä¾ï¿½ï¿½ï¿½
 	 */
 	private static final int SPEEN_DISTANCE = 5;
 	
 	/**
-	 * ÊÖ»úµÄÆÁÄ»ÃÜ¶È
+	 * ï¿½Ö»ï¿½ï¿½ï¿½ï¿½Ä»ï¿½Ü¶ï¿½
 	 */
 	private static float density;
 	/**
-	 * ×ÖÌå´óÐ¡
+	 * ï¿½ï¿½ï¿½ï¿½ï¿½Ð¡
 	 */
 	private static final int TEXT_SIZE = 16;
 	/**
-	 * ×ÖÌå¾àÀëÉ¨Ãè¿òÏÂÃæµÄ¾àÀë
+	 * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¾ï¿½ï¿½ï¿½
 	 */
 	private static final int TEXT_PADDING_TOP = 30;
 	
 	/**
-	 * »­±Ê¶ÔÏóµÄÒýÓÃ
+	 * ï¿½ï¿½ï¿½Ê¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	 */
 	private Paint paint;
 	
 	/**
-	 * ÖÐ¼ä»¬¶¯ÏßµÄ×î¶¥¶ËÎ»ÖÃ
+	 * ï¿½Ð¼ä»¬ï¿½ï¿½ï¿½ßµï¿½ï¿½î¶¥ï¿½ï¿½Î»ï¿½ï¿½
 	 */
 	private int slideTop;
 	
 	/**
-	 * ÖÐ¼ä»¬¶¯ÏßµÄ×îµ×¶ËÎ»ÖÃ
+	 * ï¿½Ð¼ä»¬ï¿½ï¿½ï¿½ßµï¿½ï¿½ï¿½×¶ï¿½Î»ï¿½ï¿½
 	 */
 	private int slideBottom;
 	
 	/**
-	 * ½«É¨ÃèµÄ¶þÎ¬ÂëÅÄÏÂÀ´£¬ÕâÀïÃ»ÓÐÕâ¸ö¹¦ÄÜ£¬ÔÝÊ±²»¿¼ÂÇ
+	 * ï¿½ï¿½É¨ï¿½ï¿½Ä¶ï¿½Î¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü£ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	 */
 	private Bitmap resultBitmap;
 	private final int maskColor;
@@ -117,7 +117,7 @@ public final class ViewfinderView extends View {
 		super(context, attrs);
 		
 		density = context.getResources().getDisplayMetrics().density;
-		//½«ÏñËØ×ª»»³Édp
+		//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×ªï¿½ï¿½ï¿½ï¿½dp
 		ScreenRate = (int)(20 * density);
 
 		paint = new Paint();
@@ -131,27 +131,27 @@ public final class ViewfinderView extends View {
 
 	@Override
 	public void onDraw(Canvas canvas) {
-		//ÖÐ¼äµÄÉ¨Ãè¿ò£¬ÄãÒªÐÞ¸ÄÉ¨Ãè¿òµÄ´óÐ¡£¬È¥CameraManagerÀïÃæÐÞ¸Ä
+		//ï¿½Ð¼ï¿½ï¿½É¨ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½Þ¸ï¿½É¨ï¿½ï¿½ï¿½Ä´ï¿½Ð¡ï¿½ï¿½È¥CameraManagerï¿½ï¿½ï¿½ï¿½ï¿½Þ¸ï¿½
 		Rect frame = CameraManager.get().getFramingRect();
 		if (frame == null) {
 			return;
 		}
 		
-		//³õÊ¼»¯ÖÐ¼äÏß»¬¶¯µÄ×îÉÏ±ßºÍ×îÏÂ±ß
+		//ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½Ð¼ï¿½ï¿½ß»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï±ßºï¿½ï¿½ï¿½ï¿½Â±ï¿½
 		if(!isFirst){
 			isFirst = true;
 			slideTop = frame.top;
 			slideBottom = frame.bottom;
 		}
 		
-		//»ñÈ¡ÆÁÄ»µÄ¿íºÍ¸ß
+		//ï¿½ï¿½È¡ï¿½ï¿½Ä»ï¿½Ä¿ï¿½Í¸ï¿½
 		int width = canvas.getWidth();
 		int height = canvas.getHeight();
 
 		paint.setColor(resultBitmap != null ? resultColor : maskColor);
 		
-		//»­³öÉ¨Ãè¿òÍâÃæµÄÒõÓ°²¿·Ö£¬¹²ËÄ¸ö²¿·Ö£¬É¨Ãè¿òµÄÉÏÃæµ½ÆÁÄ»ÉÏÃæ£¬É¨Ãè¿òµÄÏÂÃæµ½ÆÁÄ»ÏÂÃæ
-		//É¨Ãè¿òµÄ×ó±ßÃæµ½ÆÁÄ»×ó±ß£¬É¨Ãè¿òµÄÓÒ±ßµ½ÆÁÄ»ÓÒ±ß
+		//ï¿½ï¿½ï¿½ï¿½É¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó°ï¿½ï¿½ï¿½Ö£ï¿½ï¿½ï¿½ï¿½Ä¸ï¿½ï¿½ï¿½ï¿½Ö£ï¿½É¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æµ½ï¿½ï¿½Ä»ï¿½ï¿½ï¿½æ£¬É¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æµ½ï¿½ï¿½Ä»ï¿½ï¿½ï¿½ï¿½
+		//É¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æµ½ï¿½ï¿½Ä»ï¿½ï¿½ß£ï¿½É¨ï¿½ï¿½ï¿½ï¿½ï¿½Ò±ßµï¿½ï¿½ï¿½Ä»ï¿½Ò±ï¿½
 		canvas.drawRect(0, 0, width, frame.top, paint);
 		canvas.drawRect(0, frame.top, frame.left, frame.bottom + 1, paint);
 		canvas.drawRect(frame.right + 1, frame.top, width, frame.bottom + 1,
@@ -166,7 +166,7 @@ public final class ViewfinderView extends View {
 			canvas.drawBitmap(resultBitmap, frame.left, frame.top, paint);
 		} else {
 
-			//»­É¨Ãè¿ò±ßÉÏµÄ½Ç£¬×Ü¹²8¸ö²¿·Ö
+			//ï¿½ï¿½É¨ï¿½ï¿½ï¿½ï¿½ï¿½ÏµÄ½Ç£ï¿½ï¿½Ü¹ï¿½8ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 			paint.setColor(Color.GREEN);
 			canvas.drawRect(frame.left, frame.top, frame.left + ScreenRate,
 					frame.top + CORNER_WIDTH, paint);
@@ -186,7 +186,7 @@ public final class ViewfinderView extends View {
 					frame.right, frame.bottom, paint);
 
 			
-			//»æÖÆÖÐ¼äµÄÏß,Ã¿´ÎË¢ÐÂ½çÃæ£¬ÖÐ¼äµÄÏßÍùÏÂÒÆ¶¯SPEEN_DISTANCE
+			//ï¿½ï¿½ï¿½ï¿½ï¿½Ð¼ï¿½ï¿½ï¿½ï¿½,Ã¿ï¿½ï¿½Ë¢ï¿½Â½ï¿½ï¿½æ£¬ï¿½Ð¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ¶ï¿½SPEEN_DISTANCE
 			slideTop += SPEEN_DISTANCE;
 			if(slideTop >= frame.bottom){
 				slideTop = frame.top;
@@ -194,7 +194,7 @@ public final class ViewfinderView extends View {
 			canvas.drawRect(frame.left + MIDDLE_LINE_PADDING, slideTop - MIDDLE_LINE_WIDTH/2, frame.right - MIDDLE_LINE_PADDING,slideTop + MIDDLE_LINE_WIDTH/2, paint);
 			
 			
-			//»­É¨Ãè¿òÏÂÃæµÄ×Ö
+			//ï¿½ï¿½É¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 			paint.setColor(Color.WHITE);
 			paint.setTextSize(TEXT_SIZE * density);
 			paint.setAlpha(0x40);
@@ -227,7 +227,7 @@ public final class ViewfinderView extends View {
 			}
 
 			
-			//Ö»Ë¢ÐÂÉ¨Ãè¿òµÄÄÚÈÝ£¬ÆäËûµØ·½²»Ë¢ÐÂ
+			//Ö»Ë¢ï¿½ï¿½É¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý£ï¿½ï¿½ï¿½ï¿½ï¿½Ø·ï¿½ï¿½ï¿½Ë¢ï¿½ï¿½
 			postInvalidateDelayed(ANIMATION_DELAY, frame.left, frame.top,
 					frame.right, frame.bottom);
 			
