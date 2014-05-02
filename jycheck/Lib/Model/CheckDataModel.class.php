@@ -24,31 +24,33 @@ class CheckDataModel extends Model
 	
 	//搜索功能
     public function Search($xueyuan, $keyword){
+        echo $xueyuan;
         $searchMsg = array();
         if(empty($xueyuan)){
+            echo $keyword;
             if(empty($keyword)){
+                echo 'eee';
                 return $searchMsg;
             }else{
-                if(preg_match("/^\d*$/", $keyword)){
-                    //如果keyword为学号
-                    $searchMsg = $this->query("SELECT * FROM student WHERE uid = '".$keyword."'");
-                }else{
-                    //如果keyword为姓名
-                    $searchMsg = $this->query("SELECT * FROM student WHERE name LIKE '%".$keyword."%'");
-                }
+                //学院名称为空，课程名不为空
+                $lesson_id = $this->query("SELECT lesson_id, lesson_teacher FROM lesson WHERE lesson_name LIKE '%".$keyword."%'");
+              print_r($lesson_id[0]);
+                $tech_id = $this->query("SELECT tech_id from teacher where tech_name = ");
+                $searchMsg = $this->query("SELECT checkrecord.*, lesson.*, teacher.* FROM checkrecord LEFT JOIN lesson ON checkrecord.lesson_id = '".$lesson_id[0]['lesson_id']."' LEFT JOIN teacher ON checkrecord.tech_id = teacher.tech_id");
+              //  print_r($searchMsg);
                 return $searchMsg;
             }
         }else{
             if(empty($keyword)){
-                $searchMsg = $this->query("SELECT * FROM student WHERE xueyuan = '".$xueyuan."'");
+                //学院名称不为空，课程名称为空
+                $tech_id = $this->query("SELECT tech_id FROM teacher WHERE xy_id = (SELECT xy_id FROM xueyuan WHERE xy_name LIKE '%".$xueyuan."%')");
+                print_r($tech_id);
+                $searchMsg = $this->query("SELECT checkrecord.*, lesson.*, teacher.* FROM checkrecord LEFT JOIN lesson ON checkrecord.lesson_id = lesson.lesson_id LEFT JOIN teacher ON checkrecord.tech_id = '".$tech_id."'");
             }else{
-                if(preg_match("/[0-9]*/", $keyword)){
-                    //如果keyword为学号
-                    $searchMsg = $this->query("SELECT * FROM student WHERE name LIKE '%".$keyword."%' AND xueyuan = '".$xueyuan."'");
-                }else{
-                    //如果keyword为姓名
-                    $searchMsg = $this->query("SELECT * FROM student WHERE uid = '".$keyword."' AND xueyuan = '".$xueyuan."'");
-                }
+                //学院名称不为空，课程名称也不为空
+                $lesson_id = $this->query("SELECT lesson_id FROM lesson WHERE lesson_name LIKE '%".$keyword."%'");
+                $tech_id = $this->query("SELECT tech_id FROM teacher WHERE xy_id = (SELECT xy_id FROM xueyuan WHERE xy_name LIKE '%".$xueyuan."%')");
+                $searchMsg = $this->query("SELECT checkrecord.*, lesson.*, teacher.* FROM checkrecord LEFT JOIN lesson ON checkrecord.lesson_id = '".$lesson_id."' LEFT JOIN teacher ON checkrecord.tech_id = '".$tech_id."'");
             }
             return $searchMsg;
         }

@@ -13,7 +13,7 @@
             $List        = $zhuanye->zhuanyeList($pagefirst, $pagesize);
             $this->assign('data',$List);
             $this->assign('page',$zhuanye->page);
-            $this->display('zhuanyeList');
+            $this->display('ZhuanyeList');
         }
 
         //搜索功能
@@ -23,7 +23,7 @@
             $result      = $search->Search($keyword);
             if(!empty($result)){
                 $this->assign('data',$result);
-                $this->display('zhuanyeList');
+                $this->display('ZhuanyeList');
             }else{
                 echo '<script>alert("没有找到你要查找的专业信息")</script>';
                 echo '<script>history.go(-1)</script>';

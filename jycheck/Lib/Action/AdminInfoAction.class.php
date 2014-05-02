@@ -8,7 +8,7 @@ class AdminInfoAction extends RootAction
         $admin = M("admin");
         $infos = $admin->where("name = '{$user}'")->field('name')->find();
         $this->assign('infos',$infos);
-        $this->display();
+        $this->display('adminInfo');
     }
     
     //用户信息修改

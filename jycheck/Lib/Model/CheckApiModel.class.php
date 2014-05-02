@@ -5,7 +5,6 @@
 	*/
 	class CheckApiModel extends Model{
 		private $dbhandle;        //句柄
-
 		public function __construct(){
 			$this->dbhandle = new model('checkrecord', '', '');
 		}
@@ -52,7 +51,7 @@
 
 				//获取该班级总人数
 				$class_num    = $this->GetClassNum($record_class);
-				//var_dump($class_num);
+				
 				//获取班级所有人员的uid
 				$allUid       = $this->GetClassAllUid($record_class);
 
@@ -65,6 +64,7 @@
 						$info['come_uidList'][] = $value['uid'];
 					}
 				}
+				
 				//未签到人数
 				$uncomeNum          = count($info['uncome_List']);
 				//签到人数
