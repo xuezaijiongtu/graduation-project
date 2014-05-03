@@ -54,7 +54,7 @@ target=_parent>注销登录</A></SPAN> </DIV></DIV></DIV>
   <LI><A href="__APP__/Student/allMsg" 
   target=main>学生列表</A> 
   <LI><A 
-  href="" 
+  href="__APP__/UnComeStudent/unComeStudentInfo" 
   target=main>缺勤学生列表</A> </LI></UL>
 </DIV></DIV>
 <DIV class=ui-layout-center><IFRAME style="OVERFLOW: visible" id=main 

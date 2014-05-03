@@ -105,7 +105,7 @@ $(function(){
 <DIV class=admin_title>
 <H2>考勤数据</H2><A 
 class=right href="javascript:history.back(-1)">返回上一页</A> </DIV>
-<FORM id=search method='post' action="__APP__/Student/Search">
+<FORM id=search method='post' action="__APP__/CheckData/Search">
 <DIV id=search_div>&nbsp;&nbsp;学院: <SELECT id=s_cid class=searchauto name=xueyuan> 
   <OPTION selected value="">选择学院(可选)</OPTION><?php if(is_array($xueyuan)): foreach($xueyuan as $key=>$vo): ?><OPTION value="<?php echo ($vo["xy_name"]); ?>"><?php echo ($vo["xy_name"]); ?></OPTION><?php endforeach; endif; ?></SELECT>&nbsp;&nbsp;课程名字: <INPUT 
 id=s_keyword class="input w150" name=keyword type=text> <INPUT class=button value="搜 索" type=submit> </DIV></FORM>

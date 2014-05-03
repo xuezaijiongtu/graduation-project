@@ -1,9 +1,0 @@
-[ 2014-02-23T15:32:30+08:00 ] 127.0.0.1 /jycheck/index.php/Login/CheckLogin
-INFO: [ app_begin ] --START--
-INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000371s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
-SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.098505s ]
-SQL: SELECT * FROM `admin` WHERE ( `name` = 'admin' ) LIMIT 1   [ RunTime:0.000589s ]
-SQL: UPDATE admin SET id = '1', last_login_ip = '127.0.0.1', last_login_time ='2014-02-23 15:32:30' [ RunTime:0.049440s ]
-NOTIC: [2] mysql_num_rows() expects parameter 1 to be resource, boolean given F:\wamp\www\jycheck\include\Lib\Driver\Db\DbMysql.class.php 第 109 行.
-

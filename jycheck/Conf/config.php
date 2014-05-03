@@ -4,7 +4,7 @@ return array(
 	'DEFAULT_THEME'       => 'default',
 	'SHOW_PAGE_TRACE'     =>  true,
 	'TMPL_PARSE_STRING'   =>  array(
-		'__PUBLIC__'      =>  '/jycheck/jycheck/Public',
+		'__PUBLIC__'      =>  '/jycheck/Public',
 	), 
 
             'db_type'         => 'mysql',
