@@ -1,4 +1,24 @@
 <?php
+/*return array(
+    //'配置项'=>'配置值'
+    'DEFAULT_THEME'       => 'default',
+    'SHOW_PAGE_TRACE'     =>  true,
+    'TMPL_PARSE_STRING'   =>  array(
+        '__PUBLIC__'      =>  '../jycheck/Public',
+    ), 
+
+            'db_type'         => 'mysql',
+            'db_user'         => 'shinesha',
+            'db_pwd'          => 'pQ0i34eRf2',
+            'db_host'         => 'localhost',
+            'db_port'         => '3306',
+            'db_name'         => 'shinesha_jycheck',
+            'db_prefix'       => '',
+            'DB_CHARSET'      => 'utf8',
+
+    //加密盐salt
+    'Salt'                => 'shine',
+);*/
 return array(
 	//'配置项'=>'配置值'
 	'DEFAULT_THEME'       => 'default',

@@ -132,7 +132,21 @@
 
 		//根据教师ID获取旗下所有课程和所教班级
 		public function getFormMsg($tech_id){
-			
+			$Msg     = array();
+			$teacher = new model('teacher', '', '');
+			$tech_id = mysql_real_escape_string($tech_id);
+			$lesson  = $teacher->query("SELECT lesson_id, lesson_name FROM lesson WHERE lesson_teacher = (SELECT tech_name FROM teacher WHERE tech_id = '".$tech_id."')");  
+			$class   = array(
+                            0 => "电子101班",
+                            1 => "电子102班",
+                            2 => "电子103班",
+                            3 => "电子104班"
+                        );
+			foreach ($lesson as $key => $value) {
+				$Msg['lesson'][$value['lesson_id']] = $value['lesson_name']; 
+			}
+			$Msg['class'] = $class;
+			return $Msg;
 		}
 	}
 ?>
