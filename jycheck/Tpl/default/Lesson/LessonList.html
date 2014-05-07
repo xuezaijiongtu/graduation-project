@@ -30,11 +30,11 @@ type=text/css href="__PUBLIC__/css/admin_box.css">
       
     });
 
-    //添加教师用户
+    //添加课程
     $('#addTeacher').click(function(){
         asyncbox.open({
-            html:'<form action="__APP__/Teacher/addTeacher" method="post" class="addan" name="addan"><table><tr><td>姓名：</td><td><input name="tech_name" type="text"></td></tr><tr><td>密码：</td><td><input name="password" type="password"></td></tr><tr><td></td><td><input type="submit" value="添加" style="margin-left:26px;"><input type="reset" value="重置" style="margin-left:10px;"></td></tr></table></form>',
-            title:'教师用户添加'
+            html:'<form action="__APP__/Lesson/addLesson" method="post" class="addan" name="addan"><table><tr><td>学院：</td><td><SELECT id=s_cid class=searchauto name=xueyuan style="width:138px;height:36px;"><OPTION selected value="">选择学院(可选)</OPTION><foreach name="xueyuan" item="vo"><OPTION value="{$vo.xy_name}">{$vo.xy_name}</OPTION></foreach></SELECT></td></tr><tr><td>课程名称：</td><td><input name="lesson_name" type="text"></td></tr><tr><td>任课老师：</td><td><input name="teacher_name" type="text"></td></tr><tr><td>学分：</td><td><input name="xuefen" type="text"></td></tr><tr><td>上课地址：</td><td><input name="lesson_address" type="text"></td></tr><tr><td></td><td><input type="submit" value="添加" style="margin-left:26px;"><input type="reset" value="重置" style="margin-left:10px;"></td></tr></table></form>',
+            title:'课程信息添加'
             });
       
     });

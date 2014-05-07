@@ -47,7 +47,7 @@
             $Del      = D("CheckData");
             $record_id      = $_GET['record_id'];
             $Del->Delete($record_id);
-            $this->allMsg();
+            $this->allCheckMsg();
         }
 
 

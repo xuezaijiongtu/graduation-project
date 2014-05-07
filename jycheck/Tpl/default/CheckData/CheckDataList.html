@@ -135,7 +135,7 @@ id=s_keyword class="input w150" name=keyword type=text> <INPUT class=button valu
     <TD>{$vo.record_come}</TD>
     <TD><font color="red">{$vo.record_uncome}</font></TD>
     <TD>{$vo.record_time}</TD>
-    <TD><A href="###" target=_self class="showuncome" id="{$vo.record_id}" name="{$vo.record_class}--{$vo.lesson_name}">缺勤名单</A> | <A href="###" class="show" id="{$vo.record_id}" name="{$vo.record_class}--{$vo.lesson_name}" target=_self>查看图表</A> | <A onClick="return confirm('确定要删除吗？')" href="__APP__/CheckData/delete" target=_self>删除</A></TD>
+    <TD><A href="###" target=_self class="showuncome" id="{$vo.record_id}" name="{$vo.record_class}--{$vo.lesson_name}">缺勤名单</A> | <A href="###" class="show" id="{$vo.record_id}" name="{$vo.record_class}--{$vo.lesson_name}" target=_self>查看图表</A> | <A onClick="return confirm('确定要删除吗？')" href="__APP__/CheckData/delete?record_id={$vo.record_id}" target=_self>删除</A></TD>
   </TR>
     </foreach>
   </TBODY></TABLE></DIV>

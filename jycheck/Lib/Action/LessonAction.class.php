@@ -11,9 +11,18 @@
             $pageorder   = (isset($_GET['p']))?$_GET['p']:1;
             $pagefirst   = ($pageorder-1)*$pagesize;
             $List        = $lesson->lessonList($pagefirst, $pagesize);
+            $xueyuanList = $this->xueyuanList();
+            $this->assign('xueyuan', $xueyuanList);
             $this->assign('data',$List);
             $this->assign('page',$lesson->page);
             $this->display('LessonList');
+        }
+
+        //显示学院列表
+        public function xueyuanList(){
+            $xueyuan = D("CheckData");
+            $List    = $xueyuan->xueyuanList();
+            return $List;
         }
     }
 
