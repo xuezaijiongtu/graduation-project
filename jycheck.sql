@@ -1,33 +1,3 @@
--- phpMyAdmin SQL Dump
--- version 4.0.4
--- http://www.phpmyadmin.net
---
--- 主机: localhost
--- 生成日期: 2014 年 03 月 23 日 06:58
--- 服务器版本: 5.6.12-log
--- PHP 版本: 5.4.12
-
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET time_zone = "+00:00";
-
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8 */;
-
---
--- 数据库: `jycheck`
---
-CREATE DATABASE IF NOT EXISTS `jycheck` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
-USE `jycheck`;
-
--- --------------------------------------------------------
-
---
--- 表的结构 `admin`
---
-
 CREATE TABLE IF NOT EXISTS `admin` (
   `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '管理员自增ID',
   `name` varchar(32) NOT NULL COMMENT '名称',
@@ -37,18 +7,12 @@ CREATE TABLE IF NOT EXISTS `admin` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='管理员表' AUTO_INCREMENT=2 ;
 
---
--- 转存表中的数据 `admin`
---
+
 
 INSERT INTO `admin` (`id`, `name`, `password`, `last_login_ip`, `last_login_time`) VALUES
 (1, 'admin', '2c97c9544d5985e20567f772b5759fe4', '127.0.0.1', '2014-03-23 13:08:25');
 
--- --------------------------------------------------------
 
---
--- 表的结构 `checkrecord`
---
 
 CREATE TABLE IF NOT EXISTS `checkrecord` (
   `record_id` int(8) NOT NULL AUTO_INCREMENT COMMENT '考勤记录自增ID',
@@ -62,9 +26,7 @@ CREATE TABLE IF NOT EXISTS `checkrecord` (
   PRIMARY KEY (`record_id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='考勤记录表' AUTO_INCREMENT=22 ;
 
---
--- 转存表中的数据 `checkrecord`
---
+
 
 INSERT INTO `checkrecord` (`record_id`, `tech_id`, `lesson_id`, `record_time`, `record_class`, `record_come`, `record_uncome`, `record_info`) VALUES
 (1, 1, 1, '2014-02-05 20:44:09', '电子101班', 26, 10, '{"come_uidList":["101100040","101100006","101100012","101100013","101100047","101100041","101100051","101100052","101100084","101110191","101100088","101100089","101100091","101100001","101100003","101100004","101100007","101100008","101100009","101100010","101100014","101100016","101100017","101100020","101100035","101100036","101100049"],"uncome_List":["101100005","101100038","101100039","101100045","101100049","101100002","101100021","101100037","101100018","101010224"],"comeNum":26,"uncomeNum":10,"sumNum":"36"}'),
@@ -89,11 +51,6 @@ INSERT INTO `checkrecord` (`record_id`, `tech_id`, `lesson_id`, `record_time`, `
 (20, 5, 2, '2014-03-19 20:48:30', '电子101班', 23, 13, '{"come_uidList":["101100040","101100006","101100012","101100013","101100047","101100041","101100051","101100052","101100084","101110191","101100088","101100089","101100091","101100001","101100003","101100004","101100007","101100008","101100009","101100010","101100014","101100016","101100017"],"uncome_List":["101100005","101100020","101100035","101100036","101100038","101100039","101100045","101100049","101100002","101100021","101100037","101100018","101010224"],"comeNum":23,"uncomeNum":13,"sumNum":"36"}'),
 (21, 5, 2, '2014-02-26 20:48:31', '电子101班', 20, 16, '{"come_uidList":["101100040","101100006","101100012","101100013","101100047","101100041","101100051","101100052","101100084","101110191","101100088","101100089","101100091","101100001","101100003","101100004","101100007","101100008","101100009","101100010"],"uncome_List":["101100005","101100014","101100016","101100017","101100020","101100035","101100036","101100038","101100039","101100045","101100049","101100002","101100021","101100037","101100018","101010224"],"comeNum":20,"uncomeNum":16,"sumNum":"36"}');
 
--- --------------------------------------------------------
-
---
--- 表的结构 `lesson`
---
 
 CREATE TABLE IF NOT EXISTS `lesson` (
   `lesson_id` int(8) NOT NULL AUTO_INCREMENT COMMENT '课程ID',
@@ -105,9 +62,7 @@ CREATE TABLE IF NOT EXISTS `lesson` (
   PRIMARY KEY (`lesson_id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=6 ;
 
---
--- 转存表中的数据 `lesson`
---
+
 
 INSERT INTO `lesson` (`lesson_id`, `lesson_name`, `lesson_teacher`, `lesson_xuefen`, `lesson_address`, `xy_id`) VALUES
 (1, '计算机网络', '杨久红', 2, '工A 403', 5),
@@ -116,11 +71,7 @@ INSERT INTO `lesson` (`lesson_id`, `lesson_name`, `lesson_teacher`, `lesson_xuef
 (4, '单片机与微机原理', '朱向庆', 3, '工A 410', 5),
 (5, '电子工艺', '杨永华', 3, '工A 603', 5);
 
--- --------------------------------------------------------
 
---
--- 表的结构 `student`
---
 
 CREATE TABLE IF NOT EXISTS `student` (
   `uid` int(10) NOT NULL COMMENT '学号',
@@ -138,9 +89,7 @@ CREATE TABLE IF NOT EXISTS `student` (
   PRIMARY KEY (`uid`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='学生信息表';
 
---
--- 转存表中的数据 `student`
---
+
 
 INSERT INTO `student` (`uid`, `name`, `sex`, `xueyuan`, `zhuanye`, `class`, `grade`, `year`, `zynum`, `type`, `long_num`, `email`) VALUES
 (101010145, '刘学聪', '男', '数学学院', '数学与应用数学（师范）', '数学101班', '2010', '4', '0111', '本科', '', ''),
@@ -17673,12 +17622,6 @@ INSERT INTO `student` (`uid`, `name`, `sex`, `xueyuan`, `zhuanye`, `class`, `gra
 (122188165, '郑璇琴', '女', '医学院', '助产', '医学院1219班', '2012', '3', '1848', '专科', '', ''),
 (122188166, '张鹏美', '女', '医学院', '助产', '医学院1219班', '2012', '3', '1848', '专科', '', '');
 
--- --------------------------------------------------------
-
---
--- 表的结构 `teacher`
---
-
 CREATE TABLE IF NOT EXISTS `teacher` (
   `tech_id` int(8) NOT NULL AUTO_INCREMENT COMMENT '教师ID',
   `tech_name` varchar(32) NOT NULL COMMENT '学院id',
@@ -17688,9 +17631,6 @@ CREATE TABLE IF NOT EXISTS `teacher` (
   PRIMARY KEY (`tech_id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=6 ;
 
---
--- 转存表中的数据 `teacher`
---
 
 INSERT INTO `teacher` (`tech_id`, `tech_name`, `token`, `password`, `tech_status`) VALUES
 (1, '杨久红', 'yangjiuhong', '123456', 1),
@@ -17699,11 +17639,7 @@ INSERT INTO `teacher` (`tech_id`, `tech_name`, `token`, `password`, `tech_status
 (4, '林承超', 'linchengchao', '123456', 1),
 (5, '胡南辉', 'hunanhui', '123456', 1);
 
--- --------------------------------------------------------
 
---
--- 表的结构 `xueyuan`
---
 
 CREATE TABLE IF NOT EXISTS `xueyuan` (
   `xy_id` int(8) NOT NULL AUTO_INCREMENT COMMENT '学院自增ID',
@@ -17711,9 +17647,7 @@ CREATE TABLE IF NOT EXISTS `xueyuan` (
   PRIMARY KEY (`xy_id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='学院列表' AUTO_INCREMENT=17 ;
 
---
--- 转存表中的数据 `xueyuan`
---
+
 
 INSERT INTO `xueyuan` (`xy_id`, `xy_name`) VALUES
 (1, '数学学院'),
@@ -17733,11 +17667,7 @@ INSERT INTO `xueyuan` (`xy_id`, `xy_name`) VALUES
 (15, '体育学院'),
 (16, '音乐学院');
 
--- --------------------------------------------------------
 
---
--- 表的结构 `zhuanye`
---
 
 CREATE TABLE IF NOT EXISTS `zhuanye` (
   `z_id` int(8) unsigned NOT NULL AUTO_INCREMENT COMMENT '专业课自增ID',
@@ -17752,9 +17682,7 @@ CREATE TABLE IF NOT EXISTS `zhuanye` (
   PRIMARY KEY (`z_id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COMMENT='专业计划' AUTO_INCREMENT=578 ;
 
---
--- 转存表中的数据 `zhuanye`
---
+
 
 INSERT INTO `zhuanye` (`z_id`, `z_teachnum`, `z_xiaoqu`, `z_year`, `z_zhuanye`, `z_type`, `z_class_num`, `z_lesson_num`, `xy_id`) VALUES
 (6, '20040222', '江北校本部', '2004', '光信息科学与技术', '本科', '1', '13', 6),
@@ -18183,11 +18111,7 @@ INSERT INTO `zhuanye` (`z_id`, `z_teachnum`, `z_xiaoqu`, `z_year`, `z_zhuanye`, 
 (556, '20121612', '江北校本部', '2012', '心理学（师范）', '本科', '1', '50', 8),
 (557, '20121614', '江北校本部', '2012', '教育技术学（信息技术教育，师范）', '本科', '1', '39', 8);
 
--- --------------------------------------------------------
 
---
--- 表的结构 `zhuanyelesson`
---
 
 CREATE TABLE IF NOT EXISTS `zhuanyelesson` (
   `l_teach` varchar(32) NOT NULL COMMENT '校区',
@@ -18618,7 +18542,3 @@ INSERT INTO `zhuanyelesson` (`l_teach`, `l_teachnum`, `l_zhuanye`, `l_classname`
 ('江北校本部', '20120411', '汉语言文学（师范）', '文学1202班', '57', '04210147', '英语听说', '9992301', 'Katrina', '', '(2012-2013-2)-04210147-9992301-2', '2.0-0.0', '01-17', '2.0', '34', '专业任选', '理论课', '周一第3,4节{第1-17周}', '田师601', '文学院', '理论课', 394),
 ('江北校本部', '20120411', '汉语言文学（师范）', '文学1203班', '54', '04210147', '英语听说', '9992301', 'Katrina', '', '(2012-2013-2)-04210147-9992301-3', '2.0-0.0', '01-17', '2.0', '34', '专业任选', '理论课', '周二第1,2节{第1-17周}', '田师601', '文学院', '理论课', 395),
 ('江北校本部', '20100411', '汉语言文学（师范）', '文学101班', '43', '04210148', '教育见习', '2061550', '古晓君', '副教授', '(2012-2013-2)-04210148-2061550-1', '+4', '01-17', '4.0', '0', '专业必修', '实训', '', '', '文学院', '实训', 396);
-
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
