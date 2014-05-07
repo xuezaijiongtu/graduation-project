@@ -25,7 +25,7 @@ $(function(){
           },
           success: function(data){
             asyncbox.open({
-                html:'<div style="width:550px;height:280px;font-size:16px;">'+data+'</div>',
+                html:'<div style="width:600px;height:300px;font-size:16px;">'+data+'</div>',
                 title:infoShow,
                 });
             }
@@ -70,7 +70,7 @@ $(function(){
     <TD>{$vo.grade}</TD>
     <TD>{$vo.type}</TD>
     <TD>{$vo.0}</TD>
-    <TD><A href="###" target=_self class="showuncome" id="{$vo.uid}" name="详细的缺勤信息">缺勤信息</A></TD>
+    <TD><A href="###" target=_self class="showuncome" id="{$vo.uid}" name="{$vo.name}详细缺勤信息">缺勤信息</A></TD>
   </TR>
     </foreach>
   </TBODY></TABLE></DIV>

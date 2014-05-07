@@ -27,15 +27,18 @@
             $lesson_id_array = $this->query("SELECT lesson_id FROM checkrecord");
             $time_array = $this->query("SELECT record_time FROM checkrecord");
             $lesson_number = count($lesson_id_array);
+            $format = "<table border='1'><tr><td>课程名称</td><td>课程老师</td><td>上课时间</td><td>上课地点</td></tr>";
             for($x = 0; $x < $lesson_number; $x++) {
                 $time = split(' ',$time_array[$x]['record_time']);
                 $data = $time['0'];
                 if(in_array($uid, $uncomeStudentUid[$x])){
                     $lessoninfo = $this->query("SELECT lesson_name, lesson_teacher,lesson_address FROM lesson WHERE lesson_id = '".$lesson_id_array[$x]['lesson_id']."'");
-                    $array = array(trim('课程名称:'.$lessoninfo[0]['lesson_name'].' 课程老师:'.$lessoninfo[0]['lesson_teacher'].' 上课时间:'.$data.' 上课地点:'.$lessoninfo[0]['lesson_address'].'<br/>'));
-                    $lessonInfo[] = $array;
+                    $array = '<tr><td>'.$lessoninfo[0]['lesson_name'].'</td><td>'.$lessoninfo[0]['lesson_teacher'].'</td><td>'.$data.'</td><td>'.$lessoninfo[0]['lesson_address'].'</td></tr>';
+                    $format .= $array;
                 }
             }
+            $format .= "</table>";
+            $lessonInfo[] = $format; 
             return $lessonInfo;    
         }
 
