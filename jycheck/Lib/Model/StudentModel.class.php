@@ -63,6 +63,5 @@ class StudentModel extends Model
     public function getStudentInfo($uid){
         return $this->query("SELECT name, zhuanye, grade, xueyuan, sex FROM student WHERE uid = '".$uid."'");
     }
-
 }
 ?>

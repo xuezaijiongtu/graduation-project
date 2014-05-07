@@ -7,6 +7,7 @@
 					$username  = trim($_POST['username']);
 					$password  = md5(sha1(trim($_POST['password'])).C('Salt'));
 					$checkcode = trim($_POST['checkcode']);
+					echo $username;
 					$user = D("Admin");
                     $re = $user->AdminLogin($username, $password);
 					if($re){
@@ -31,7 +32,7 @@
 
 		//login页面调用
 		public function Login(){
-			$this->display('login');
+			$this->display('Login');
 		}
 
 		//验证码

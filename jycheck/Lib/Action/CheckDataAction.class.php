@@ -20,7 +20,7 @@
 
         //显示学院列表
         public function xueyuanList(){
-            $xueyuan = D("Student");
+            $xueyuan = D("CheckData");
             $List    = $xueyuan->xueyuanList();
             return $List;
         }
@@ -29,16 +29,16 @@
         public function Search(){
             $xueyuan     = trim($_POST['xueyuan']);
             $keyword     = trim($_POST['keyword']);
-            $search      = D("Student");
+            $search      = D("CheckData");
             $result      = $search->Search($xueyuan, $keyword);
             if(!empty($result)){
                 $xueyuanList = $this->xueyuanList();
                 $this->assign('xueyuan', $xueyuanList);
                 $this->assign('data',$result);
-                $this->display('StudentList');
+                $this->display('CheckDataList');
             }else{
-                echo '<script>alert("没有找到你要查找的学生信息")</script>';
-                echo '<script>history.go(-1)</script>';
+              //  echo '<script>alert("没有找到你要查找的学生信息")</script>';
+               // echo '<script>history.go(-1)</script>';
             }
         }
 
