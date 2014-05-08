@@ -60,7 +60,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/submitSelectForm"
         android:layout_width="86dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="130dp"

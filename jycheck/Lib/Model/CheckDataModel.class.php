@@ -29,7 +29,6 @@ class CheckDataModel extends Model
         if(empty($xueyuan)){
             echo $keyword;
             if(empty($keyword)){
-                echo 'eee';
                 return $searchMsg;
             }else{
                 //学院名称为空，课程名不为空
@@ -44,7 +43,6 @@ class CheckDataModel extends Model
             if(empty($keyword)){
                 //学院名称不为空，课程名称为空
                 $tech_id = $this->query("SELECT tech_id FROM teacher WHERE xy_id = (SELECT xy_id FROM xueyuan WHERE xy_name LIKE '%".$xueyuan."%')");
-                print_r($tech_id);
                 $searchMsg = $this->query("SELECT checkrecord.*, lesson.*, teacher.* FROM checkrecord LEFT JOIN lesson ON checkrecord.lesson_id = lesson.lesson_id LEFT JOIN teacher ON checkrecord.tech_id = '".$tech_id."'");
             }else{
                 //学院名称不为空，课程名称也不为空

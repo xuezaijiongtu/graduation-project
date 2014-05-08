@@ -143,7 +143,7 @@
                             3 => "电子104班"
                         );
 			foreach ($lesson as $key => $value) {
-				$Msg['lesson'][$value['lesson_id']] = $value['lesson_name']; 
+				$Msg['lesson'][] = $value['lesson_name']; 
 			}
 			$Msg['class'] = $class;
 			return $Msg;

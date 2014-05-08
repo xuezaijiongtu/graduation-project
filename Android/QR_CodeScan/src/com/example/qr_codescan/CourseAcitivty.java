@@ -1,12 +1,9 @@
 package com.example.qr_codescan;
 
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Properties;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
@@ -20,24 +17,24 @@ import org.apache.http.util.EntityUtils;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+
 import android.app.Activity;
-import android.content.ContentValues;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
-import android.widget.AdapterView.OnItemSelectedListener;
 
 public class CourseAcitivty extends Activity {
-	String url = "http://121.14.161.216:8018/getInfo.php";
-	String subUrl = "http://121.14.161.216:8018/formSubmit.php";
+	String url = "http://jycheck.jyumcu.com/index.php/CheckApi/getFormMsg";
+	String subUrl = "http://jycheck.jyumcu.com/index.php/CheckApi/CreateCheckRecord";
 	String u_id;
 	Spinner courseView;
 	Spinner classlistView;
@@ -110,7 +107,9 @@ public class CourseAcitivty extends Activity {
 		protected String doInBackground(String... params) {
 			String retSrc = null;
 			try {
-				retSrc = getRequest(url);
+				//Log.e("error",url+"?tech_id="+getIntent().getStringExtra("user_id"));
+				retSrc = getRequest(url+"?tech_id="+getIntent().getStringExtra("user_id"));
+				//Log.e("error",retSrc.toString());
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -120,12 +119,12 @@ public class CourseAcitivty extends Activity {
 		protected void onPostExecute(String result) {
 			if(result != null){
 				try {
-					Log.e("course", result);
+					//Log.e("course", result);
 					JSONObject data = new JSONObject(result);
 					JSONArray lesson = data.getJSONArray("lesson");
 					JSONArray classes = data.getJSONArray("class");
 					String lessonArr [] = new String[lesson.length()];
-					String classArr [] = new String[classes.length()];
+					String classArr[] = new String[classes.length()];
 					for(int i = 0 ; i < lesson.length(); i++){
 						lessonArr[i] = lesson.get(i).toString();
 					}
@@ -142,6 +141,13 @@ public class CourseAcitivty extends Activity {
 							classArr);
 					classlistView.setAdapter(classlistAdapter);
 					classlistView.setOnItemSelectedListener(new itemSelect("classlist", classArr));
+					Button mButton = (Button) findViewById(R.id.submitSelectForm);
+					mButton.setOnClickListener(new View.OnClickListener() {
+						    public void onClick(View v) {
+						    	subProcess sp = new subProcess();
+								sp.execute("");
+							}
+					});
 				} catch (JSONException e) {
 					// TODO Auto-generated catch block
 					Toast.makeText(CourseAcitivty.this, "失败！", 1000).show();
@@ -158,9 +164,9 @@ public class CourseAcitivty extends Activity {
 			String retSrc = null;
 			try {
 				Map<String ,String> map = new HashMap<String ,String>();
-				map.put("lesson", curlesson);
-				map.put("class", curClass);
-				map.put("userid", u_id);
+				map.put("lesson_name", curlesson);
+				map.put("class_name", curClass);
+				map.put("teacher_id", u_id);
 				retSrc = postRequest(subUrl, map);
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
@@ -202,8 +208,6 @@ public class CourseAcitivty extends Activity {
 				curlesson = a[position];
 			}else if(k.equals("classlist")){
 				curClass = a[position];
-				subProcess sp = new subProcess();
-				sp.execute("");
 			}
 		}
 

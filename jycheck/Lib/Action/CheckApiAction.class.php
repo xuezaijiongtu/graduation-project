@@ -8,13 +8,16 @@
 		*@Description:创建考勤记录
 		*/
 		public function CreateCheckRecord(){
-			$teacher_id = trim($_GET['teacher_id']);                    //教师ID
-			$class_name = trim($_GET['class_name']);                    //考勤班级
-			$lesson_id  = trim($_GET['lesson_id']);                     //考勤课程ID
+			$teacher_id = trim($_POST['teacher_id']);                    //教师ID
+			$class_name = trim($_POST['class_name']);                    //考勤班级
+			$lesson_name  = trim($_POST['lesson_name']);                     //考勤课程ID
+			$lesson = D("Lesson");
+			$lesson_msg = $lesson->getLessonId($lesson_name);
+			$lesson_id  = $lesson_msg[0]['lesson_id'];
 			if(!empty($teacher_id) && !empty($class_name) && !empty($lesson_id)){
 				$record     = D('CheckApi');
-				$record_id  = $record->getRecordId($teacher_id, $class_name, $lesson_id);
-				echo $record_id;
+				$record_id['record_id']  = $record->getRecordId($teacher_id, $class_name, $lesson_id);
+				echo json_encode($record_id);
 			}else{
 				return false;
 			}

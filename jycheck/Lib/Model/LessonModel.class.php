@@ -20,6 +20,11 @@
                 return false;
             }
         }
+
+        //根据课程名获得课程ID
+        public function getLessonId($lesson_name){
+            return $this->query("SELECT lesson_id FROM lesson WHERE lesson_name = '".$lesson_name."'");
+        }
     }
 
 ?>
