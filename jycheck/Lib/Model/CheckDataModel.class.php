@@ -24,7 +24,6 @@ class CheckDataModel extends Model
 	
 	//搜索功能
     public function Search($xueyuan, $keyword){
-        echo $xueyuan;
         $searchMsg = array();
         if(empty($xueyuan)){
             echo $keyword;
@@ -51,6 +50,12 @@ class CheckDataModel extends Model
                 $searchMsg = $this->query("SELECT checkrecord.*, lesson.*, teacher.* FROM checkrecord LEFT JOIN lesson ON checkrecord.lesson_id = '".$lesson_id."' LEFT JOIN teacher ON checkrecord.tech_id = '".$tech_id."'");
             }
             return $searchMsg;
+        if(!empty($xueyuan) && !empty($keyword)){
+            return 'both';
+        }elseif(!empty($keyword)){
+            $this->query("SELECT checkrecord.*, lesson.*, teacher.* FROM checkrecord LEFT JOIN lesson ON checkrecord.lesson_id = lesson.lesson_id LEFT JOIN teacher ON checkrecord.tech_id = teacher.tech_id ORDER BY checkrecord.record_time WHERE teacher.tech_name = '".$keyword."',");
+        }elseif(!empty($xueyuan)){
+            return $xueyuan;
         }
     }
 

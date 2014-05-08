@@ -6,5 +6,4 @@
 	define('ROOT', dirname(__FILE__));
 	set_time_limit(0);
 	require_once('./include/ThinkPHP.php');
-
 ?>
