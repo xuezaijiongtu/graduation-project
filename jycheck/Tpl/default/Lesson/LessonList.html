@@ -11,18 +11,18 @@ type=text/css href="__PUBLIC__/css/admin_box.css">
 <SCRIPT type=text/javascript>
   $(function(){
     $('.edit').click(function(){
-        var tech_id = $(this).attr('id');
+        var lessonid = $(this).attr('id');
         $.ajax({
-          url: "__APP__/Teacher/getTeachInfo",
+          url: "__APP__/Lesson/getLessonInfo",
           type: "POST",
-          data: {tech_id:tech_id},
+          data: {lessonid:lessonid},
           dataType: "json",
           error: function(){
               alert('异步查询表失败,请联系管理员');
           },
           success: function(data){
             asyncbox.open({
-                html:'<form action="__APP__/Teacher/edit" method="post" class="addan" name="addan"><table><tr><td>姓名：</td><td><input name="tech_name" type="text" style="width:108px;height:18px;" value="'+data[0].tech_name+'"></td></tr><tr><td>状态：</td><td><select name="tech_status" class="version"><option value="1">正常</option><option value="0">暂停使用</option></select></td></tr><tr><td></td><td><input type="submit" value="修 改" style="margin-left:20px;width:80px;"><input type="hidden" name="tech_id" value="'+data[0].tech_id+'"></tr></table></form>',
+                html:'<form action="__APP__/Lesson/editLesson" method="post" class="addan" name="addan"><table><tr><td>课程名称：</td><td><input name="lesson_name" type="text" style="width:108px;height:18px;" value="'+data[0].lesson_name+'"></td></tr><tr><td>课程老师：</td><td><input name="lesson_teacher" type="text" style="width:108px;height:18px;" value="'+data[0].lesson_teacher+'"></td></tr><tr><td>课程学分：</td><td><input name="lesson_xuefen" type="text" style="width:108px;height:18px;" value="'+data[0].lesson_xuefen+'"></td></tr><tr><td>课程地点：</td><td><input name="lesson_address" type="text" style="width:108px;height:18px;" value="'+data[0].lesson_address+'"></td></tr><tr><td>所属院校：</td><td><input name="xy_name" type="text" style="width:108px;height:18px;" value="'+data[0].xy_name+'"></td></tr><tr><td></td><td><input type="submit" name="submit" value="修 改" style="margin-left:20px;width:80px;"><input type="hidden" name="lesson_id" value="'+data[0].lesson_id+'"></tr></table></form>',
                 title:'课程信息修改',
                 });
             }
@@ -33,7 +33,7 @@ type=text/css href="__PUBLIC__/css/admin_box.css">
     //添加课程
     $('#addTeacher').click(function(){
         asyncbox.open({
-            html:'<form action="__APP__/Lesson/addLesson" method="post" class="addan" name="addan"><table><tr><td>学院：</td><td><SELECT id=s_cid class=searchauto name=xueyuan style="width:138px;height:36px;"><OPTION selected value="">选择学院(可选)</OPTION><foreach name="xueyuan" item="vo"><OPTION value="{$vo.xy_name}">{$vo.xy_name}</OPTION></foreach></SELECT></td></tr><tr><td>课程名称：</td><td><input name="lesson_name" type="text"></td></tr><tr><td>任课老师：</td><td><input name="teacher_name" type="text"></td></tr><tr><td>学分：</td><td><input name="xuefen" type="text"></td></tr><tr><td>上课地址：</td><td><input name="lesson_address" type="text"></td></tr><tr><td></td><td><input type="submit" value="添加" style="margin-left:26px;"><input type="reset" value="重置" style="margin-left:10px;"></td></tr></table></form>',
+            html:'<form action="__APP__/Lesson/addLesson" method="post" class="addan" name="addan"><table><tr><td>学院：</td><td><SELECT id=s_cid class=searchauto name=xueyuan style="width:138px;height:36px;"><OPTION selected value="">选择学院(可选)</OPTION><foreach name="xueyuan" item="vo"><OPTION value="{$vo.xy_name}">{$vo.xy_name}</OPTION></foreach></SELECT></td></tr><tr><td>课程名称：</td><td><input name="lesson_name" type="text"></td></tr><tr><td>任课老师：</td><td><input name="teacher_name" type="text"></td></tr><tr><td>学分：</td><td><input name="xuefen" type="text"></td></tr><tr><td>上课地址：</td><td><input name="lesson_address" type="text"></td></tr><tr><td></td><td><input type="submit" name="submit" value="添加" style="margin-left:26px;"><input type="reset" value="重置" style="margin-left:10px;"></td></tr></table></form>',
             title:'课程信息添加'
             });
       
@@ -55,7 +55,7 @@ type=text/css href="__PUBLIC__/css/admin_box.css">
 class=right href="javascript:history.back(-1)">返回上一页</A> </DIV>
 <DIV class=admin_menu><A 
 href="###" id="addTeacher">添加课程</A></DIV>
-<FORM id=search method='post' action="__APP__/Teacher/Search">
+<FORM id=search method='post' action="__APP__/Lesson/searchLesson">
 <DIV id=search_div>&nbsp;&nbsp;课程名称<INPUT 
 id=s_keyword class="input w150" name=keyword type=text> <INPUT class=button value="搜 索" type=submit> </DIV></FORM>
 <FORM method=post action="" target=_self>
@@ -78,7 +78,7 @@ id=s_keyword class="input w150" name=keyword type=text> <INPUT class=button valu
     <TD>{$vo.lesson_xuefen}分</TD>
     <TD>{$vo.lesson_address}</TD>
     <TD>{$vo.xy_name}</TD>
-    <TD><A href="###" target=_self class="edit" id="{$vo.tech_id}">修改</A> | <A onClick="return confirm('确定要删除吗？')" href="__APP__/Teacher/delete?uid={$vo.tech_id}" target=_self>删除</A></TD>
+    <TD><A href="###" target=_self class="edit" id="{$vo.lesson_id}">修改</A> | <A onClick="return confirm('确定要删除吗？')" href="__APP__/Lesson/deleteLesson?lesson_id={$vo.lesson_id}" target=_self>删除</A></TD>
   </TR>
     </foreach>
   </TBODY></TABLE></DIV>

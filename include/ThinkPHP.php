@@ -33,4 +33,5 @@ if(defined('ENGINE_NAME')) {
 	    // 加载运行时文件
 	    require THINK_PATH.'Common/runtime.php';
 	}	
+	
 }
