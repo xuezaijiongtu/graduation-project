@@ -72,7 +72,7 @@
 				$info['uncomeNum']  = $uncomeNum;
 				$info['sumNum']     = $class_num;
 				$infoMsg            = json_encode($info);
-				$this->dbhandle->query("UPDATE checkrecord SET record_uncome = '".$uncomeNum."', record_info = '".$infoMsg."' WHERE record_id = '".$record_id."'");
+				$this->dbhandle->query("UPDATE checkrecord SET record_come = '".$comeNum."', record_uncome = '".$uncomeNum."', record_info = '".$infoMsg."' WHERE record_id = '".$record_id."'");
 				$Msg['status']      = $record_class."此次考勤结束并有效";
 				echo json_encode($Msg);
 
