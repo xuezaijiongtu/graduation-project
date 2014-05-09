@@ -24,12 +24,12 @@ return array(
 	'DEFAULT_THEME'       => 'default',
 	'SHOW_PAGE_TRACE'     =>  true,
 	'TMPL_PARSE_STRING'   =>  array(
-		'__PUBLIC__'      =>  '/app/graduation-bugfix/jycheck/Public',
+		'__PUBLIC__'      =>  '/jycheck/Public',
 	), 
 
             'db_type'         => 'mysql',
             'db_user'         => 'root',
-            'db_pwd'          => 'wulingao',
+            'db_pwd'          => '',
             'db_host'         => 'localhost',
             'db_port'         => '3306',
             'db_name'         => 'jycheck',

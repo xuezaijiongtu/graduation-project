@@ -1,6 +1,5 @@
 <?php
-class CheckDataModel extends Model
-{
+class CheckDataModel extends Model{
     public $list;
     public $page;
     public function DataList($pagefirst, $pagesize){
@@ -21,21 +20,18 @@ class CheckDataModel extends Model
     public function xueyuanList(){
         return $this->query("SELECT * FROM xueyuan");
     }
-	
-	//搜索功能
+    
+    //搜索功能
     public function Search($xueyuan, $keyword){
         $searchMsg = array();
         if(empty($xueyuan)){
-            echo $keyword;
             if(empty($keyword)){
                 return $searchMsg;
             }else{
                 //学院名称为空，课程名不为空
                 $lesson_id = $this->query("SELECT lesson_id, lesson_teacher FROM lesson WHERE lesson_name LIKE '%".$keyword."%'");
-              print_r($lesson_id[0]);
                 $tech_id = $this->query("SELECT tech_id from teacher where tech_name = ");
                 $searchMsg = $this->query("SELECT checkrecord.*, lesson.*, teacher.* FROM checkrecord LEFT JOIN lesson ON checkrecord.lesson_id = '".$lesson_id[0]['lesson_id']."' LEFT JOIN teacher ON checkrecord.tech_id = teacher.tech_id");
-              //  print_r($searchMsg);
                 return $searchMsg;
             }
         }else{
@@ -49,13 +45,14 @@ class CheckDataModel extends Model
                 $tech_id = $this->query("SELECT tech_id FROM teacher WHERE xy_id = (SELECT xy_id FROM xueyuan WHERE xy_name LIKE '%".$xueyuan."%')");
                 $searchMsg = $this->query("SELECT checkrecord.*, lesson.*, teacher.* FROM checkrecord LEFT JOIN lesson ON checkrecord.lesson_id = '".$lesson_id."' LEFT JOIN teacher ON checkrecord.tech_id = '".$tech_id."'");
             }
+            if(!empty($xueyuan) && !empty($keyword)){
+                return 'both';
+            }elseif(!empty($keyword)){
+                $this->query("SELECT checkrecord.*, lesson.*, teacher.* FROM checkrecord LEFT JOIN lesson ON checkrecord.lesson_id = lesson.lesson_id LEFT JOIN teacher ON checkrecord.tech_id = teacher.tech_id ORDER BY checkrecord.record_time WHERE teacher.tech_name = '".$keyword."',");
+            }elseif(!empty($xueyuan)){
+                return $xueyuan;
+            }
             return $searchMsg;
-        if(!empty($xueyuan) && !empty($keyword)){
-            return 'both';
-        }elseif(!empty($keyword)){
-            $this->query("SELECT checkrecord.*, lesson.*, teacher.* FROM checkrecord LEFT JOIN lesson ON checkrecord.lesson_id = lesson.lesson_id LEFT JOIN teacher ON checkrecord.tech_id = teacher.tech_id ORDER BY checkrecord.record_time WHERE teacher.tech_name = '".$keyword."',");
-        }elseif(!empty($xueyuan)){
-            return $xueyuan;
         }
     }
 
@@ -63,7 +60,6 @@ class CheckDataModel extends Model
     public function Delete($record_id){
         $this->query("DELETE FROM checkrecord WHERE record_id = '".$record_id."'");
     }
-
 
     //根据record_id获取缺勤学生姓名
     public function getAllUncomeStudentName($record_id){
@@ -87,7 +83,6 @@ class CheckDataModel extends Model
     //获取考勤数量信息
     public function getCheckNumInfo($record_id){
         return $this->query("SELECT record_come, record_uncome FROM checkrecord WHERE record_id = '".$record_id."'");
-        
     }
 
     //获取某个班级考勤数据
@@ -105,6 +100,5 @@ class CheckDataModel extends Model
         $this->page = $page->show();  
         return $this->query("SELECT DISTINCT record_class FROM checkrecord LIMIT {$pagefirst},{$pagesize}");
     }
-
 }
 ?>
