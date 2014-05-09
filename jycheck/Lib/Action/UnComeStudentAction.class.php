@@ -33,13 +33,15 @@
             //print_r($UnComeStudentInfo);
             //逃课学生的总人数
             $UnComeStudentNumber = count($uncomeStudentNumber); 
-            $pagesize    = 15;
+            $pagesize    = 10;
             $pageorder   = (isset($_GET['p']))?$_GET['p']:1;
+            import('ORG.Util.Page');
+            $page = new page($UnComeStudentNumber, $pagesize);   
             $pagefirst   = ($pageorder-1)*$pagesize;
             $pageend = $pagefirst + $pagesize;
-            $array = array_splice($UnComeStudentInfo, $pagefirst, $pageend);
-            
+            $array = array_splice($UnComeStudentInfo, $pagefirst, $pageend);    
             $this->assign('data', $array);
+            $this->assign('page', $page->show());
             $this->display('UnComeStudentList');  
         }
 

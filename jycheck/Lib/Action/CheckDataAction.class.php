@@ -31,6 +31,10 @@
             $keyword     = trim($_POST['keyword']);
             $Search      = D("CheckData");
             $result = $Search->Search($xueyuan, $keyword);
+            if(!$result){
+                echo '<script>alert("找不到要查询的内容!")</script>';
+                echo '<script>history.go(-1)</script>';
+            }
             $this->assign('data',$result);
             $this->display('CheckDataList');
         }
@@ -42,7 +46,6 @@
             $Del->Delete($record_id);
             $this->allCheckMsg();
         }
-
 
         //根据record_id获取当次缺勤学生名字
         public function getAllUncomeStudentName(){

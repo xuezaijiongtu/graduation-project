@@ -125,7 +125,7 @@
                 $this->assign('data',$result);
                 $this->display('LessonList');
             }else{
-                echo '<script>alert("没有找到你要查找的课程信息")</script>';
+                echo '<script>alert("没有找到你要查找的考勤信息")</script>';
                 echo '<script>history.go(-1)</script>';
             }
         }
