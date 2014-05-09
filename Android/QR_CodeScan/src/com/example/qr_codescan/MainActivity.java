@@ -66,8 +66,22 @@ public class MainActivity extends Activity {
 		resultButton.setOnClickListener(new View.OnClickListener() {
 			    public void onClick(View v) {
 			    	try{
-			    		getRequest("http://jycheck.jyumcu.com/index.php/CheckApi/OnSetCheckRecord?record_id="+getIntent().getStringExtra("record_id"));
-			    		Log.e("error", "http://jycheck.jyumcu.com/index.php/CheckApi/OnSetCheckRecord?record_id="+getIntent().getStringExtra("record_id"));
+			    		Thread thread = new Thread(){
+							public void run(){
+								try{
+									getRequest("http://jycheck.jyumcu.com/index.php/CheckApi/OnSetCheckRecord?record_id="+getIntent().getStringExtra("record_id"));
+								}catch(Exception e){
+									e.printStackTrace();
+								}
+							}
+						};
+						try{
+							thread.start();
+							thread.join();
+						}catch(Exception e){
+							e.printStackTrace();
+						}
+			    		
 			    		//new AlertDialog.Builder(null).setTitle("标题").setMessage("简单消息框").setPositiveButton("确定", null).show();  
 			    	} catch (Exception e) {
 						// TODO Auto-generated catch block
