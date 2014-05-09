@@ -68,5 +68,10 @@ class StudentModel extends Model
     public function Edit($uid, $name, $sex, $xueyuan, $zhuanye, $class, $grade, $year,$type, $long_num, $email){
         $this->query("UPDATE student SET name = '".$name."', sex = '".$sex."', xueyuan = '".$xueyuan."', zhuanye = '".$zhuanye."', class = '".$class."', grade = '" .$grade."', year = '".$year."', type = '".$type."', long_num = '".$long_num."', email = '".$email."' WHERE uid = '".$uid."';");
     }
+
+    //获取学生信息
+    public function getStudentInfo($uid){
+        return $this->query("SELECT name, zhuanye, grade, xueyuan, sex FROM student WHERE uid = '".$uid."'");
+    }
 }
 ?>

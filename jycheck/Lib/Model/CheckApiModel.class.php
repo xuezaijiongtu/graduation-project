@@ -21,12 +21,11 @@
 				$recordData = $this->dbhandle->query("SELECT record_come, record_info FROM checkrecord WHERE record_id = '".$record_id."'");
 				if(empty($recordData[0]['record_info'])){
 					$recordinfo['come_uidList'][0] = $uid;
-					$info = json_encode($recordinfo);
+					$info = $recordinfo;
 				}else{
 					$info    = json_decode($recordData[0]['record_info'], true);
 					//判断该学生是否已经存在于考勤记录表中
 					if(!in_array($uid, $info['come_uidList'])){
-						$record_come = $recordData[0]['record_come'] + 1;
 						$info['come_uidList'][]  = $uid;
 					}else{
 						$Msg['error'] = "请勿重复扫描该学生图书证进行考勤";
@@ -35,7 +34,7 @@
 					}	
 				}
 				$info = json_encode($info);
-				$this->dbhandle->query("UPDATE checkrecord SET record_come = '".$record_come."', record_info = '".$info."' WHERE record_id = '".$record_id."'");
+				$this->dbhandle->query("UPDATE checkrecord SET record_come = record_come+1, record_info = '".$info."' WHERE record_id = '".$record_id."'");
 			}
 		}
 
