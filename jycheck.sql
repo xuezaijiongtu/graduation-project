@@ -17624,13 +17624,13 @@ INSERT INTO `student` (`uid`, `name`, `sex`, `xueyuan`, `zhuanye`, `class`, `gra
 
 CREATE TABLE IF NOT EXISTS `teacher` (
   `tech_id` int(8) NOT NULL AUTO_INCREMENT COMMENT '教师ID',
-  `tech_name` varchar(32) NOT NULL COMMENT '学院id',
+  `xy_id` int(8) NOT NULL COMMENT '学院id',
+  `tech_name` varchar(32) NOT NULL COMMENT '老师名字',
   `token` varchar(32) NOT NULL COMMENT '校验码',
   `password` varchar(32) NOT NULL COMMENT '密码',
   `tech_status` int(3) NOT NULL DEFAULT '1' COMMENT '状态，0为冻结，1为正常',
   PRIMARY KEY (`tech_id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=6 ;
-
 
 INSERT INTO `teacher` (`tech_id`, `tech_name`, `token`, `password`, `tech_status`) VALUES
 (1, '杨久红', 'yangjiuhong', '123456', 1),
