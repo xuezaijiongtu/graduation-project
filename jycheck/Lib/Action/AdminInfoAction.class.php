@@ -12,7 +12,7 @@ class AdminInfoAction extends RootAction
     }
     
     //用户信息修改
-    public function InfoAlter()
+    public function InfoChange()
     {
         $oldpwd = md5(sha1(trim($_POST['oldpwd'])).C('Salt'));
         $oldinfos = array();

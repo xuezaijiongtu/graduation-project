@@ -32,7 +32,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class LoginAcitivty extends Activity {
-	String url = "http://121.14.161.216:8018/login.php";
+	String url = "http://jycheck.jyumcu.com/index.php/CheckApi/login";
 	EditText user;
 	EditText pwd;
 	Button login;

@@ -2,13 +2,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffe1e0de" >
+    android:background="#ffe1e0de"
+    android:gravity="top" >
 
     <Button
         android:id="@+id/button1"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        style="@style/AppBaseTheme"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
         android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
         android:text="学号扫描" />
 
     <TextView
@@ -27,4 +30,14 @@
         android:layout_height="fill_parent"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/result"/>
+
+    <Button
+        android:id="@+id/submitResult"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/result"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:text="提交考勤数据" />
+
 </RelativeLayout>

@@ -29,17 +29,10 @@
         public function Search(){
             $xueyuan     = trim($_POST['xueyuan']);
             $keyword     = trim($_POST['keyword']);
-            $search      = D("CheckData");
-            $result      = $search->Search($xueyuan, $keyword);
-            if(!empty($result)){
-                $xueyuanList = $this->xueyuanList();
-                $this->assign('xueyuan', $xueyuanList);
-                $this->assign('data',$result);
-                $this->display('CheckDataList');
-            }else{
-              //  echo '<script>alert("没有找到你要查找的学生信息")</script>';
-               // echo '<script>history.go(-1)</script>';
-            }
+            $Search      = D("CheckData");
+            $result = $Search->Search($xueyuan, $keyword);
+            $this->assign('data',$result);
+            $this->display('CheckDataList');
         }
 
         //删除功能
@@ -47,7 +40,7 @@
             $Del      = D("CheckData");
             $record_id      = $_GET['record_id'];
             $Del->Delete($record_id);
-            $this->allMsg();
+            $this->allCheckMsg();
         }
 
 

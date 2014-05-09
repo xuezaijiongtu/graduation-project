@@ -13,14 +13,14 @@ import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.utils.URLEncodedUtils;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.message.BasicNameValuePair;
+import org.apache.http.util.EntityUtils;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.os.Handler;
-import android.os.Looper;
-import android.os.Message;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -62,6 +62,33 @@ public class MainActivity extends Activity {
 				startActivityForResult(intent, SCANNIN_GREQUEST_CODE);
 			}
 		});
+		Button resultButton = (Button) findViewById(R.id.submitResult);
+		resultButton.setOnClickListener(new View.OnClickListener() {
+			    public void onClick(View v) {
+			    	try{
+			    		Thread thread = new Thread(){
+							public void run(){
+								try{
+									getRequest("http://jycheck.jyumcu.com/index.php/CheckApi/OnSetCheckRecord?record_id="+getIntent().getStringExtra("record_id"));
+								}catch(Exception e){
+									e.printStackTrace();
+								}
+							}
+						};
+						try{
+							thread.start();
+							thread.join();
+						}catch(Exception e){
+							e.printStackTrace();
+						}
+			    		
+			    		//new AlertDialog.Builder(null).setTitle("标题").setMessage("简单消息框").setPositiveButton("确定", null).show();  
+			    	} catch (Exception e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+				}
+		});
 	}
 	
 	/**
@@ -82,7 +109,7 @@ public class MainActivity extends Activity {
 				final String getStudentNumber = bundle.getString("result");
 				Thread thread = new Thread(){
 					public void run(){
-						sendGet("http://121.14.161.145:8019/test.php", getStudentNumber);
+						sendGet("http://jycheck.jyumcu.com/index.php/CheckApi/CheckAction", getStudentNumber, getIntent().getStringExtra("record_id"));
 					}
 				};
 				try{
@@ -100,22 +127,13 @@ public class MainActivity extends Activity {
 		}
     }
 	
-	public static String sendGet(String url, String param) {
+	public static String sendGet(String url, String studentNum, String record_id) {
 		String Msg = "";                          //返回信息
-		Log.e("Error", "start thread");
-		//先将参数放入List，再对参数进行URL编码
-		List<BasicNameValuePair> params = new LinkedList<BasicNameValuePair>();
-		params.add(new BasicNameValuePair("do", param));
-
-		//对参数编码
-		String allParam = URLEncodedUtils.format(params, "UTF-8");
-
 		//baseUrl			
 		String baseUrl = url;
 		
 		//将URL与参数拼接
-		HttpGet getMethod = new HttpGet(baseUrl + "?" + allParam);
-					
+		HttpGet getMethod = new HttpGet(baseUrl + "?student_id=10" + studentNum + "&record_id=" + record_id);			
 		HttpClient httpClient = new DefaultHttpClient();
 
 		try {
@@ -134,5 +152,30 @@ public class MainActivity extends Activity {
 		}
 		return Msg;
     }
+	
+	public static String getRequest(String url)  
+	        throws Exception  
+	    {  
+			DefaultHttpClient httpClient= new DefaultHttpClient();  
+	          
+	        try{  
+	            HttpGet get = new HttpGet(url);  
+	            HttpResponse httpResponse = httpClient.execute(get);  
+	            if (httpResponse.getStatusLine()  
+	                .getStatusCode() == 200)  
+	            {  
+	                String result = EntityUtils  
+	                    .toString(httpResponse.getEntity());  
+	                return result;  
+	            }  
+	        }catch(Exception e){  
+	            e.printStackTrace();  
+	            return "-200";  
+	        }finally{  
+	            httpClient.getConnectionManager().shutdown();  
+	        }  
+	  
+	        return null;  
+	    }  
 
 }
