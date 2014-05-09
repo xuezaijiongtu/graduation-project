@@ -30,8 +30,9 @@
             $xueyuan     = trim($_POST['xueyuan']);
             $keyword     = trim($_POST['keyword']);
             $Search      = D("CheckData");
-            $Search->Search($xueyuan, $keyword);
-            $this->allCheckMsg();
+            $result = $Search->Search($xueyuan, $keyword);
+            $this->assign('data',$result);
+            $this->display('CheckDataList');
         }
 
         //删除功能

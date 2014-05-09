@@ -23,37 +23,21 @@ class CheckDataModel extends Model{
     
     //搜索功能
     public function Search($xueyuan, $keyword){
-        $searchMsg = array();
-        if(empty($xueyuan)){
-            if(empty($keyword)){
-                return $searchMsg;
-            }else{
-                //学院名称为空，课程名不为空
-                $lesson_id = $this->query("SELECT lesson_id, lesson_teacher FROM lesson WHERE lesson_name LIKE '%".$keyword."%'");
-                $tech_id = $this->query("SELECT tech_id from teacher where tech_name = ");
-                $searchMsg = $this->query("SELECT checkrecord.*, lesson.*, teacher.* FROM checkrecord LEFT JOIN lesson ON checkrecord.lesson_id = '".$lesson_id[0]['lesson_id']."' LEFT JOIN teacher ON checkrecord.tech_id = teacher.tech_id");
-                return $searchMsg;
-            }
+        if(!empty($xueyuan) && !empty($keyword)){
+            //学院名称不为空，课程名称也不为空
+            $lesson_id = $this->query("SELECT lesson_id FROM lesson WHERE lesson_name LIKE '%".$keyword."%'");
+            $tech_id = $this->query("SELECT tech_id FROM teacher WHERE xy_id = (SELECT xy_id FROM xueyuan WHERE xy_name LIKE '%".$xueyuan."%')");
+            $searchMsg = $this->query("SELECT checkrecord.*, lesson.*, teacher.* FROM checkrecord LEFT JOIN lesson ON checkrecord.lesson_id = '".$lesson_id."' LEFT JOIN teacher ON checkrecord.tech_id = '".$tech_id."'");
+        }elseif(!empty($keyword)){
+            $searchMsg = $this->query("SELECT checkrecord.*, lesson.*, teacher.* FROM checkrecord LEFT JOIN lesson ON checkrecord.lesson_id = lesson.lesson_id LEFT JOIN teacher ON checkrecord.tech_id = teacher.tech_id WHERE lesson.lesson_name = '".$keyword."' ORDER BY checkrecord.record_time DESC;");
+        }elseif(!empty($xueyuan)){
+            //学院名称不为空，课程名称为空
+            $tech_id = $this->query("SELECT tech_id FROM teacher WHERE xy_id = (SELECT xy_id FROM xueyuan WHERE xy_name LIKE '%".$xueyuan."%')");
+            $searchMsg = $this->query("SELECT checkrecord.*, lesson.*, teacher.* FROM checkrecord LEFT JOIN lesson ON checkrecord.lesson_id = lesson.lesson_id LEFT JOIN teacher ON checkrecord.tech_id = '".$tech_id."'");
         }else{
-            if(empty($keyword)){
-                //学院名称不为空，课程名称为空
-                $tech_id = $this->query("SELECT tech_id FROM teacher WHERE xy_id = (SELECT xy_id FROM xueyuan WHERE xy_name LIKE '%".$xueyuan."%')");
-                $searchMsg = $this->query("SELECT checkrecord.*, lesson.*, teacher.* FROM checkrecord LEFT JOIN lesson ON checkrecord.lesson_id = lesson.lesson_id LEFT JOIN teacher ON checkrecord.tech_id = '".$tech_id."'");
-            }else{
-                //学院名称不为空，课程名称也不为空
-                $lesson_id = $this->query("SELECT lesson_id FROM lesson WHERE lesson_name LIKE '%".$keyword."%'");
-                $tech_id = $this->query("SELECT tech_id FROM teacher WHERE xy_id = (SELECT xy_id FROM xueyuan WHERE xy_name LIKE '%".$xueyuan."%')");
-                $searchMsg = $this->query("SELECT checkrecord.*, lesson.*, teacher.* FROM checkrecord LEFT JOIN lesson ON checkrecord.lesson_id = '".$lesson_id."' LEFT JOIN teacher ON checkrecord.tech_id = '".$tech_id."'");
-            }
-            if(!empty($xueyuan) && !empty($keyword)){
-                return 'both';
-            }elseif(!empty($keyword)){
-                $this->query("SELECT checkrecord.*, lesson.*, teacher.* FROM checkrecord LEFT JOIN lesson ON checkrecord.lesson_id = lesson.lesson_id LEFT JOIN teacher ON checkrecord.tech_id = teacher.tech_id ORDER BY checkrecord.record_time WHERE teacher.tech_name = '".$keyword."',");
-            }elseif(!empty($xueyuan)){
-                return $xueyuan;
-            }
-            return $searchMsg;
+            $searchMsg = array();
         }
+            return $searchMsg;
     }
 
     //删除考勤记录
