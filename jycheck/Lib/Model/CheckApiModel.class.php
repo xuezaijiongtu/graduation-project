@@ -42,7 +42,12 @@
 		public function OnSetCheckRecord($record_id){
 			if(!empty($record_id)){
 				//获取班级名称
-				$record       = $this->dbhandle->query("SELECT record_come ,record_class, record_info FROM checkrecord WHERE record_id = '".$record_id."'");
+				$record       = $this->dbhandle->query("SELECT record_come ,record_class, record_info, lesson_id, tech_id FROM checkrecord WHERE record_id = '".$record_id."'");
+				$lesson =  new model('lesson', '', '');
+				$lesson_info  = $lesson->query("SELECT * FROM lesson WHERE lesson_id = '".$record[0]['lesson_id']."'");
+				$lesson_name  = $lesson_info[0]['lesson_name'];
+				$lesson_teacher = $lesson_info[0]['lesson_teacher'];
+				$lesson_address = $lesson_info[0]['lesson_address'];
 				$record_class = $record[0]['record_class'];
 				$record_come  = $record[0]['record_come'];
 				$record_info  = json_decode($record[0]['record_info'], true);
@@ -66,6 +71,14 @@
 				
 				//未签到人数
 				$uncomeNum          = count($info['uncome_List']);
+				//发送邮件
+				$uncome = implode(",", $info['uncome_List']);
+				$student = new model('student', '', '');
+				$mailList = $student->query("SELECT name,email FROM student WHERE uid IN (".$uncome.") AND email <> ''");
+				foreach ($mailList as $key => $value) {
+					$content = $value['name']."同学:\n     您好，您缺席了由".$lesson_teacher."任课的".$lesson_name."课程，请速到".$lesson_address."处上课";
+					file_get_contents("http://xtuone.sinaapp.com/sendMsg.php?to=".$value['email']."&title=".urlencode("考勤系统缺勤通知")."&content=".urlencode($content));
+				}
 				//签到人数
 				$comeNum            = count($info['come_uidList']);
 				$info['comeNum']    = $comeNum;
@@ -75,7 +88,6 @@
 				$this->dbhandle->query("UPDATE checkrecord SET record_come = '".$comeNum."', record_uncome = '".$uncomeNum."', record_info = '".$infoMsg."' WHERE record_id = '".$record_id."'");
 				$Msg['status']      = $record_class."此次考勤结束并有效";
 				echo json_encode($Msg);
-
 			}else{
 				$Msg['error'] = "所提交的考勤记录表ID为空，请联系管理员";
 				echo json_encode($Msg);
